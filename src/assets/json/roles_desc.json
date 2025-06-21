@@ -1,0 +1,386 @@
+{
+  "cybersecurity_roles": [
+    {
+      "id": 1,
+      "role": "SOC Analyst",
+      "job_market_growth": "~31.6% over 2023–2033",
+      "avg_salary_increase": "+12% peak boost with certifications (CISSP, CSA, Splunk)",
+      "open_positions": "17.3K/year new openings nationwide",
+      "salary_data": {
+        "entry": {
+          "range": "$60k–$75k (typically $70k)",
+          "with_cert": "$67k–$85k",
+          "increase": "~10–12%"
+        },
+        "mid": {
+          "range": "$80k–$100k",
+          "with_cert": "$96k–$112k",
+          "increase": "+12%"
+        },
+        "senior": {
+          "range": "$120k–$127k (90th percentile)",
+          "with_cert": "$135k+",
+          "increase": "+12%"
+        }
+      },
+      "hot_skills": [
+        "SIEM (Splunk, QRadar)",
+        "Incident Response",
+        "Threat Hunting",
+        "Linux Forensics"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Penetration Tester",
+      "job_market_growth": "~32% projected growth",
+      "avg_salary_increase": "+15–18% with certifications (OSCP, CEH, Pentest+)",
+      "open_positions": "~10K+ roles in US, with annual openings growing 5–8% YoY",
+      "salary_data": {
+        "entry": {
+          "range": "$96k–$142k (avg $120K)",
+          "with_cert": "$110k–$150k",
+          "increase": "≈ +15%"
+        },
+        "mid": {
+          "range": "$108k–$150k (avg ~$109k–$121k)",
+          "with_cert": "$125k–$160k",
+          "increase": "≈ +15%"
+        },
+        "senior": {
+          "range": "$148k avg (Glassdoor)",
+          "with_cert": "$170k+",
+          "increase": "+18%"
+        }
+      },
+      "hot_skills": [
+        "Exploit Dev",
+        "Web & API Testing",
+        "AWS/Azure",
+        "Strong Reporting & Communication"
+      ]
+    },
+    {
+      "role": "Security Engineer",
+      "job_market_growth": "~28% projected growth over 2023–2033",
+      "avg_salary_increase": "+14% (with CISSP, CCSP, AWS certs)",
+      "open_positions": "~9K new openings per year in the U.S.",
+      "salary_data": {
+        "entry": {
+          "range": "$75k–$95k",
+          "with_cert": "$86k–$110k",
+          "increase": "≈+14%"
+        },
+        "mid": {
+          "range": "$100k–$130k",
+          "with_cert": "$114k–$150k",
+          "increase": "+14%"
+        },
+        "senior": {
+          "range": "$140k–$175k+",
+          "with_cert": "$160k+",
+          "increase": "+15%"
+        }
+      },
+      "hot_skills": [
+        "Network Security",
+        "Cloud Security (AWS/Azure)",
+        "DevSecOps",
+        "System Hardening"
+      ]
+    },
+    {
+      "role": "Cybersecurity Analyst",
+      "job_market_growth": "~31% (2023–2033)",
+      "avg_salary_increase": "+12% (with CISM, CEH, CompTIA Security+)",
+      "open_positions": "~13K new roles announced yearly",
+      "salary_data": {
+        "entry": {
+          "range": "$60k–$85k",
+          "with_cert": "$67k–$95k",
+          "increase": "+12%"
+        },
+        "mid": {
+          "range": "$85k–$115k",
+          "with_cert": "$95k–$130k",
+          "increase": "+12%"
+        },
+        "senior": {
+          "range": "$115k–$150k",
+          "with_cert": "$130k–$168k",
+          "increase": "+12–15%"
+        }
+      },
+      "hot_skills": [
+        "SIEM (Splunk, Elastic)",
+        "Incident Response",
+        "Python Scripting",
+        "Threat Intel"
+      ]
+    },
+    {
+      "role": "Threat Intelligence Analyst",
+      "job_market_growth": "~26% growth projected",
+      "avg_salary_increase": "+13% (with CTIA, GCTI, Cyber Threat Intel certs)",
+      "open_positions": "~5K new roles projected in the next year",
+      "salary_data": {
+        "entry": {
+          "range": "$70k–$95k",
+          "with_cert": "$80k–$110k",
+          "increase": "+13%"
+        },
+        "mid": {
+          "range": "$95k–$130k",
+          "with_cert": "$108k–$147k",
+          "increase": "+13%"
+        },
+        "senior": {
+          "range": "$130k–$175k",
+          "with_cert": "$150k–$200k",
+          "increase": "+15%"
+        }
+      },
+      "hot_skills": [
+        "OSINT",
+        "Malware Triage",
+        "Threat Trends",
+        "Reporting & MISP"
+      ]
+    },
+    {
+      "role": "Security Architect",
+      "job_market_growth": "~25% over next decade",
+      "avg_salary_increase": "+15% (with CISSP-ISSEP, SABSA, SABSA certs)",
+      "open_positions": "~2,500 new openings per year",
+      "salary_data": {
+        "entry": {
+          "range": "$90k–$115k",
+          "with_cert": "$105k–$132k",
+          "increase": "+15%"
+        },
+        "mid": {
+          "range": "$115k–$150k",
+          "with_cert": "$132k–$173k",
+          "increase": "+15%"
+        },
+        "senior": {
+          "range": "$150k–$200k+",
+          "with_cert": "$172k–$230k",
+          "increase": "+15–18%"
+        }
+      },
+      "hot_skills": [
+        "Enterprise Architecture",
+        "Cloud Design",
+        "Zero Trust",
+        "Risk Management"
+      ]
+    },
+    {
+      "role": "Security Administrator",
+      "job_market_growth": "~22% over 2023–2033",
+      "avg_salary_increase": "+12% with certifications (Security+, Microsoft, Cisco)",
+      "open_positions": "~8K new roles/year",
+      "salary_data": {
+        "entry": {
+          "range": "$41k–$60k (avg ~$55k)",
+          "with_cert": "$47k–$67k",
+          "increase": "+10–12%"
+        },
+        "mid": {
+          "range": "$71k–$95k",
+          "with_cert": "$79k–$106k",
+          "increase": "+12%"
+        },
+        "senior": {
+          "range": "$112k–$160k (ZipRecruiter avgs $112–135k)",
+          "with_cert": "$125k–$180k",
+          "increase": "+12–15%"
+        }
+      },
+      "hot_skills": [
+        "Windows/Linux administration",
+        "Identity & Access Management (IAM)",
+        "Active Directory",
+        "Group Policy",
+        "Endpoint Security"
+      ]
+    },
+    {
+      "role": "Cloud Security Engineer",
+      "job_market_growth": "~33% projected growth",
+      "avg_salary_increase": "+15% with certifications (CCSP, AWS-Security, Azure-Security)",
+      "open_positions": "~7K new roles/year",
+      "salary_data": {
+        "entry": {
+          "range": "$85k–$116k",
+          "with_cert": "$98k–$133k",
+          "increase": "+15%"
+        },
+        "mid": {
+          "range": "$99k–$140k",
+          "with_cert": "$114k–$161k",
+          "increase": "+15%"
+        },
+        "senior": {
+          "range": "$115k–$178k (avgs: $136k–$205k)",
+          "with_cert": "$132k–$220k+",
+          "increase": "+15–18%"
+        }
+      },
+      "hot_skills": [
+        "AWS/Azure/GCP security",
+        "CSPM",
+        "DevSecOps",
+        "Container/Kubernetes hardening"
+      ]
+    },
+    {
+      "role": "Application Security Specialist",
+      "job_market_growth": "~30% with rising app-layer threats",
+      "avg_salary_increase": "+14% (with CSSLP, AppSec, OWASP certs)",
+      "open_positions": "~4K new jobs per year",
+      "salary_data": {
+        "entry": {
+          "range": "$60k–$85k (avg ~$75k)",
+          "with_cert": "$70k–$100k",
+          "increase": "+12–14%"
+        },
+        "mid": {
+          "range": "$85k–$125k",
+          "with_cert": "$97k–$143k",
+          "increase": "+14%"
+        },
+        "senior": {
+          "range": "$125k–$170k+ (architect avg ~143–169k)",
+          "with_cert": "$143k–$195k",
+          "increase": "+14–18%"
+        }
+      },
+      "hot_skills": [
+        "SAST/DAST",
+        "Secure SDLC",
+        "API/Web testing",
+        "Code review tools",
+        "DevSecOps"
+      ]
+    },
+    {
+      "role": "Malware Analyst",
+      "job_market_growth": "~26%+ projected growth in malware and threat analysis roles",
+      "avg_salary_increase": "+15–18% with certifications (GREM, GCIH, reverse-engineering accreditations)",
+      "open_positions": "~3–5K new roles/year",
+      "salary_data": {
+        "entry": {
+          "range": "$65k–$90k",
+          "with_cert": "$75k–$105k",
+          "increase": "+15%"
+        },
+        "mid": {
+          "range": "$95k–$110k (Zip: avg $86k–$100k)",
+          "with_cert": "$110k–$130k",
+          "increase": "+15%"
+        },
+        "senior": {
+          "range": "$115k–$150k (top $169k)",
+          "with_cert": "$132k–$175k",
+          "increase": "+18%"
+        }
+      },
+      "hot_skills": [
+        "Malware reverse-engineering",
+        "dynamic/static analysis",
+        "sandboxing tools",
+        "Python/C++ scripting"
+      ]
+    },
+    {
+      "role": "Forensics Analyst",
+      "job_market_growth": "~13% projected growth",
+      "avg_salary_increase": "+12–15% with certifications (GCFE, GCFA, EnCE)",
+      "open_positions": "~2.5K new roles/year",
+      "salary_data": {
+        "entry": {
+          "range": "$58k–$66k",
+          "with_cert": "$67k–$76k",
+          "increase": "+12%"
+        },
+        "mid": {
+          "range": "$73k–$90k",
+          "with_cert": "$82k–$104k",
+          "increase": "+13%"
+        },
+        "senior": {
+          "range": "$114k–$150k (Zip/Glassdoor)",
+          "with_cert": "$128k–$172k",
+          "increase": "+14–15%"
+        }
+      },
+      "hot_skills": [
+        "Digital evidence handling",
+        "Cellebrite/EnCase",
+        "memory forensics",
+        "chain-of-custody reporting"
+      ]
+    },
+    {
+      "role": "Network Security Engineer",
+      "job_market_growth": "~22–25% projected",
+      "avg_salary_increase": "+12–15% with certifications (CCNP Security, CCIE, Palo Alto, Fortinet)",
+      "open_positions": "6–9K new roles per year",
+      "salary_data": {
+        "entry": {
+          "range": "$68k–$88k",
+          "with_cert": "$76k–$105k",
+          "increase": "+12%"
+        },
+        "mid": {
+          "range": "$100k–$130k (Zip avg $125k)",
+          "with_cert": "$114k–$150k",
+          "increase": "+15%"
+        },
+        "senior": {
+          "range": "$140k–$185k (avg $154k–$184k)",
+          "with_cert": "$160k–$210k",
+          "increase": "+15%"
+        }
+      },
+      "hot_skills": [
+        "Firewall/VPN design",
+        "IDS/IPS tuning",
+        "network segmentation",
+        "secure SD-WAN",
+        "routing/switching"
+      ]
+    },
+    {
+      "role": "Infrastructure Engineer",
+      "job_market_growth": "~20–25% in security-focused infra roles",
+      "avg_salary_increase": "+12–15% with certifications (CCSP, CISSP, Azure/AWS Certified Solutions Architect)",
+      "open_positions": "~5–8K new roles per year",
+      "salary_data": {
+        "entry": {
+          "range": "$65k–$85k",
+          "with_cert": "$75k–$100k",
+          "increase": "+12%"
+        },
+        "mid": {
+          "range": "$90k–$120k (est.)",
+          "with_cert": "$105k–$144k",
+          "increase": "+12–14%"
+        },
+        "senior": {
+          "range": "$115k–$145k remote",
+          "with_cert": "$132k–$175k",
+          "increase": "+15%"
+        }
+      },
+      "hot_skills": [
+        "Infrastructure-as-Code (Terraform, Ansible)",
+        "Cloud/On-Prem hybrid design",
+        "IaC security",
+        "SIEM integration"
+      ]
+    }
+  ]
+}

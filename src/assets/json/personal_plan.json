@@ -1,0 +1,151 @@
+{
+  "personalized_cybersecurity_career_plans": {
+    "SOC_Analyst": {
+      "Entry_Level": {
+        "salary_range": "$70k–$90k",
+        "certification_recommendations": ["CompTIA Security+", "Cisco CyberOps Associate"],
+        "key_skills": ["SIEM (Splunk, QRadar)", "Log Analysis", "Incident Response"],
+        "learning_resources": [
+          "Google Cybersecurity Professional Certificate (Coursera)",
+          "Blue Team Fundamentals (SANS SEC450)"
+        ],
+        "experience_building": [
+          "Set up a home SIEM lab with Elastic Stack",
+          "Practice log analysis with sample datasets",
+          "Participate in SOC analyst study groups"
+        ]
+      },
+      "Mid_Level": {
+        "salary_range": "$95k–$120k",
+        "certification_recommendations": ["Certified SOC Analyst (CSA)", "GIAC Certified Incident Handler (GCIH)"],
+        "key_skills": ["Incident Triage", "Threat Hunting", "Python Scripting", "TTP Mapping"],
+        "career_actions": [
+          "Lead incident response simulations",
+          "Develop custom SIEM correlation rules",
+          "Mentor junior analysts"
+        ],
+        "specialization_paths": [
+          "Threat Intelligence Integration",
+          "SOAR Automation Development",
+          "Cloud Security Monitoring"
+        ]
+      },
+      "Senior_Level": {
+        "salary_range": "$130k–$160k",
+        "certification_recommendations": ["CISSP", "GCIH"],
+        "key_skills": ["Threat Intelligence", "Playbook Development", "Team Leadership"],
+        "leadership_development": [
+          "Design SOC metrics and reporting frameworks",
+          "Interface with C-level executives on security posture",
+          "Develop cross-team security integration strategies"
+        ],
+        "emerging_tech_focus": [
+          "AI-driven threat detection systems",
+          "Behavioral analytics implementation",
+          "Cloud-native SOC architectures"
+        ]
+      }
+    },
+    "Penetration_Tester": {
+      "Entry_Level": {
+        "salary_range": "$85k–$105k",
+        "certification_recommendations": ["OSCP", "Pentest+"],
+        "key_skills": ["Basic Exploitation", "Web Application Testing", "Report Writing"],
+        "lab_environment": [
+          "Hack The Box/TryHackMe machines",
+          "Build vulnerable web apps for testing",
+          "Participate in bug bounty programs"
+        ]
+      },
+      "Mid_Level": {
+        "salary_range": "$115k–$140k",
+        "certification_recommendations": ["OSCE", "CREST CRT"],
+        "key_skills": ["Advanced Exploitation", "Privilege Escalation", "Cloud Testing"],
+        "specialization_options": [
+          "Web/API security testing",
+          "Cloud penetration testing",
+          "Red team operations"
+        ],
+        "tool_mastery": [
+          "Burp Suite Pro",
+          "C2 frameworks (Cobalt Strike, Mythic)",
+          "Cloud-specific testing tools (Pacu, ScoutSuite)"
+        ]
+      },
+      "Senior_Level": {
+        "salary_range": "$150k–$180k+",
+        "certification_recommendations": ["CREST CPP", "OSWE"],
+        "key_skills": ["Adversary Emulation", "Red Team Planning", "Leadership"],
+        "career_advancement": [
+          "Lead purple team exercises",
+          "Develop organizational penetration testing standards",
+          "Present at security conferences"
+        ]
+      }
+    },
+    "Security_Engineer": {
+      "Entry_Level": {
+        "salary_range": "$80k–$100k",
+        "certification_recommendations": ["AWS/Azure Security Fundamentals", "CISSP Prep"],
+        "key_skills": ["Firewall/IDS Configuration", "System Hardening", "Cloud Security"],
+        "hands_on_projects": [
+          "Implement zero-trust network architecture",
+          "Automate security baseline deployments",
+          "Build cloud security monitoring"
+        ]
+      },
+      "Mid_Level": {
+        "salary_range": "$110k–$135k",
+        "certification_recommendations": ["CCNP Security", "CCSP"],
+        "key_skills": ["IAM", "Vulnerability Management", "DevSecOps"],
+        "architecture_focus": [
+          "Secure CI/CD pipeline design",
+          "Container security implementation",
+          "Enterprise security tool integration"
+        ]
+      },
+      "Senior_Level": {
+        "salary_range": "$145k–$175k",
+        "certification_recommendations": ["CISSP", "CCIE Security"],
+        "key_skills": ["Enterprise Architecture", "Zero Trust Design", "Automation"],
+        "strategic_initiatives": [
+          "Lead security tool consolidation projects",
+          "Develop security reference architectures",
+          "Mentor engineering teams"
+        ]
+      }
+    },
+    "Cloud_Security_Engineer": {
+      "Entry_Level": {
+        "salary_range": "$90k–$110k",
+        "certification_recommendations": ["AWS Security Specialty", "CCSP"],
+        "key_skills": ["AWS IAM", "CIS Benchmarks", "Terraform Security"],
+        "cloud_labs": [
+          "Implement CSPM in test environment",
+          "Secure serverless architectures",
+          "Build compliance-as-code pipelines"
+        ]
+      },
+      "Mid_Level": {
+        "salary_range": "$120k–$150k",
+        "certification_recommendations": ["CCSP", "Azure Security Engineer Associate"],
+        "key_skills": ["CSPM", "DevSecOps", "Container Security"],
+        "advanced_projects": [
+          "Design multi-cloud security controls",
+          "Implement CI/CD security gates",
+          "Develop cloud forensic capabilities"
+        ]
+      },
+      "Senior_Level": {
+        "salary_range": "$160k–$200k+",
+        "certification_recommendations": ["Certified Cloud Security Architect", "CISSP"],
+        "key_skills": ["Cloud Architecture", "Zero Trust", "Incident Handling"],
+        "leadership_areas": [
+          "Develop cloud security strategy",
+          "Lead cloud migration security programs",
+          "Architect cross-cloud security solutions"
+        ]
+      }
+    }
+  }
+}

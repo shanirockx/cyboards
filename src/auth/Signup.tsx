@@ -2,7 +2,7 @@ import { useState } from "react"
 import { signupWithEmail } from "../service/auth-service"
 import { toast } from "react-toastify"
 import { ProtectedRoute } from "../common/protected-route"
-import "./singup.css"
+import "./signup.css"
 
 interface FormData {
   firstName: string

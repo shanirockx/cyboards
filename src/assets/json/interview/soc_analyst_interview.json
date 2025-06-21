@@ -1,0 +1,72 @@
+{
+  "interview_questions": {
+    "entry_level": [
+      {
+        "question": "What is the CIA Triad and why is it important in cybersecurity?",
+        "answer": "The CIA Triad consists of Confidentiality, Integrity, and Availability. It forms the foundation of information security by ensuring data is protected from unauthorized access, remains accurate and unaltered, and is accessible when needed by authorized users."
+      },
+      {
+        "question": "Explain the difference between a vulnerability, threat, and risk.",
+        "answer": [
+          "Vulnerability: A weakness in a system that could be exploited",
+          "Threat: A potential danger that could exploit a vulnerability",
+          "Risk: The likelihood and impact of a threat exploiting a vulnerability"
+        ]
+      },
+      {
+        "question": "What is a SIEM and what are its primary functions?",
+        "answer": [
+          "Security Information and Event Management system",
+          "Collects and analyzes log data from multiple sources",
+          "Provides real-time monitoring and alerting",
+          "Helps with compliance reporting and forensic analysis"
+        ]
+      },
+      {
+        "question": "Describe the incident response process.",
+        "answer": [
+          "Preparation: Establish policies, procedures, and tools",
+          "Identification: Detect and analyze potential incidents",
+          "Containment: Limit the scope and impact of the incident",
+          "Eradication: Remove the threat from the environment",
+          "Recovery: Restore systems to normal operations",
+          "Lessons Learned: Document and improve processes"
+        ]
+      },
+      {
+        "question": "What are some common network ports and their associated services?",
+        "answer": [
+          "Port 80: HTTP (web traffic)",
+          "Port 443: HTTPS (secure web traffic)",
+          "Port 22: SSH (secure shell)",
+          "Port 21: FTP (file transfer)",
+          "Port 25: SMTP (email)",
+          "Port 53: DNS (domain name resolution)"
+        ]
+      }
+    ],
+    "mock_interview": {
+      "total_questions": 3,
+      "questions": [
+        {
+          "id": 1,
+          "category": "Fundamentals",
+          "question": "What is the CIA Triad and why is it important in cybersecurity?",
+          "difficulty": "Entry"
+        },
+        {
+          "id": 2,
+          "category": "SIEM",
+          "question": "How would you investigate a suspicious login alert in a SIEM?",
+          "difficulty": "Entry"
+        },
+        {
+          "id": 3,
+          "category": "Incident Response",
+          "question": "Walk me through your approach to handling a potential malware infection.",
+          "difficulty": "Entry"
+        }
+      ]
+    }
+  }
+}

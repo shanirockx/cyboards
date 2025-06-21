@@ -1,0 +1,1620 @@
+{
+  "learning_path": {
+    "entry_level": {
+      "description": "This roadmap is shared across all entry-level SOC Analyst timelines (ASAP, 6 Months, 1 Year, Flexible). The only difference is in the suggested duration per module.",
+      "core_learning_modules": {
+        "soc_fundamentals": {
+          "description": "Foundational knowledge for SOC operations",
+          "platforms": [
+            {
+              "name": "Cybrary",
+              "url": "https://www.cybrary.it",
+              "type": "free_account"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Watch SOC analyst workflow videos",
+              "resources": [
+                {
+                  "name": "YouTube",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Complete visual SIEM demonstration series",
+              "resources": [
+                {
+                  "name": "Cybrary",
+                  "url": "https://www.cybrary.it",
+                  "type": "free_account"
+                }
+              ]
+            },
+            {
+              "task": "View incident response case study videos",
+              "resources": [
+                {
+                  "name": "YouTube",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Watch threat hunting demonstration videos",
+              "resources": [
+                {
+                  "name": "YouTube",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Complete interactive SOC simulations",
+              "resources": [
+                {
+                  "name": "Cybrary",
+                  "url": "https://www.cybrary.it",
+                  "type": "free_account"
+                }
+              ]
+            },
+            {
+              "task": "View security tools overview videos",
+              "resources": [
+                {
+                  "name": "YouTube",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "siem_tools": {
+          "description": "Hands-on training with SIEM platforms (Splunk/ELK)",
+          "platforms": [
+            {
+              "name": "Splunk Fundamentals",
+              "url": "https://www.splunk.com",
+              "type": "free"
+            },
+            {
+              "name": "Splunk .conf Archives",
+              "url": "https://conf.splunk.com",
+              "type": "free"
+            },
+            {
+              "name": "Elastic Training",
+              "url": "https://www.elastic.co/training",
+              "type": "free_basics"
+            },
+            {
+              "name": "YouTube Labs",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Install and explore Splunk Enterprise",
+              "resources": [
+                {
+                  "name": "Splunk",
+                  "url": "https://www.splunk.com",
+                  "type": "trial",
+                  "note": "Free 60-day trial"
+                }
+              ]
+            },
+            {
+              "task": "Complete Splunk Fundamentals 1",
+              "resources": [
+                {
+                  "name": "Splunk",
+                  "url": "https://www.splunk.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Watch dashboard/correlation rule demos",
+              "resources": [
+                {
+                  "name": "YouTube",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Build SPL queries with real data (Boss of the SOC)",
+              "resources": [
+                {
+                  "name": "Splunk",
+                  "url": "https://www.splunk.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Deploy ELK stack",
+              "resources": [
+                {
+                  "name": "Elastic",
+                  "url": "https://www.elastic.co",
+                  "type": "trial",
+                  "note": "Elastic Cloud free trial or self-hosted"
+                }
+              ]
+            },
+            {
+              "task": "Configure Filebeat, Logstash, Kibana dashboards",
+              "resources": [
+                {
+                  "name": "Elastic Docs",
+                  "url": "https://www.elastic.co/guide/index.html",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create alerting with ElastAlert or Kibana tools",
+              "resources": [
+                {
+                  "name": "Elastic Docs",
+                  "url": "https://www.elastic.co/guide/index.html",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "network_security": {
+          "description": "Network analysis and packet inspection techniques",
+          "platforms": [
+            {
+              "name": "Wireshark University",
+              "url": "https://www.wireshark.org",
+              "type": "free"
+            },
+            {
+              "name": "PacketLife Labs",
+              "url": "https://packetlife.net/labs/",
+              "type": "free"
+            },
+            {
+              "name": "Coursera",
+              "url": "https://www.coursera.org",
+              "type": "mixed",
+              "note": "Some free, others ~$49/course"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Watch TCP/IP and network protocol breakdown videos",
+              "resources": [
+                {
+                  "name": "Wireshark",
+                  "url": "https://www.wireshark.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Complete Wireshark walkthroughs",
+              "resources": [
+                {
+                  "name": "Wireshark",
+                  "url": "https://www.wireshark.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Analyze malware PCAP files",
+              "resources": [
+                {
+                  "name": "PacketLife",
+                  "url": "https://packetlife.net/labs/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Configure Suricata/Snort in lab",
+              "resources": [
+                {
+                  "name": "Suricata",
+                  "url": "https://suricata.io",
+                  "type": "free"
+                },
+                {
+                  "name": "Snort",
+                  "url": "https://www.snort.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Build network detection rules",
+              "resources": [
+                {
+                  "name": "Snort",
+                  "url": "https://www.snort.org",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "incident_response": {
+          "description": "Incident handling and forensic investigation techniques",
+          "platforms": [
+            {
+              "name": "SANS YouTube",
+              "url": "https://www.youtube.com/user/SANSTV",
+              "type": "free"
+            },
+            {
+              "name": "Blue Team Labs Online",
+              "url": "https://blueteamlabs.online",
+              "type": "free_tier"
+            },
+            {
+              "name": "TryHackMe - Blue Team Room",
+              "url": "https://tryhackme.com",
+              "type": "paid",
+              "cost": "$10/month"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Watch IR lifecycle explanation videos",
+              "resources": [
+                {
+                  "name": "SANS YouTube",
+                  "url": "https://www.youtube.com/user/SANSTV",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Perform sandbox malware analysis",
+              "resources": [
+                {
+                  "name": "TryHackMe",
+                  "url": "https://tryhackme.com",
+                  "type": "paid",
+                  "cost": "$10/month"
+                }
+              ]
+            },
+            {
+              "task": "Use Autopsy and Volatility for forensic review",
+              "resources": [
+                {
+                  "name": "Autopsy",
+                  "url": "https://www.autopsy.com",
+                  "type": "free"
+                },
+                {
+                  "name": "Volatility",
+                  "url": "https://www.volatilityfoundation.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice evidence handling, reporting",
+              "resources": [
+                {
+                  "name": "SANS Reading Room",
+                  "url": "https://www.sans.org/reading-room/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Develop basic IR playbooks",
+              "resources": [
+                {
+                  "name": "SANS Reading Room",
+                  "url": "https://www.sans.org/reading-room/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_detection": {
+          "description": "Advanced threat detection and hunting techniques",
+          "platforms": [
+            {
+              "name": "MITRE ATT&CK Navigator",
+              "url": "https://attack.mitre.org",
+              "type": "free"
+            },
+            {
+              "name": "Sigma Rules Repo",
+              "url": "https://github.com/SigmaHQ/sigma",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "paid",
+              "cost": "$10/month"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Deploy Sysmon in test VMs",
+              "resources": [
+                {
+                  "name": "Microsoft Sysinternals",
+                  "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create detection rules mapped to MITRE TTPs",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK",
+                  "url": "https://attack.mitre.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Use Sigma, YARA for detection",
+              "resources": [
+                {
+                  "name": "Sigma",
+                  "url": "https://github.com/SigmaHQ/sigma",
+                  "type": "free"
+                },
+                {
+                  "name": "YARA",
+                  "url": "https://virustotal.github.io/yara/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Run threat hunting hypothesis labs",
+              "resources": [
+                {
+                  "name": "TryHackMe",
+                  "url": "https://tryhackme.com",
+                  "type": "paid",
+                  "cost": "$10/month"
+                }
+              ]
+            },
+            {
+              "task": "Automate responses with simple scripts",
+              "resources": [
+                {
+                  "name": "GitHub",
+                  "url": "https://github.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "security_operations_reading": {
+          "description": "Essential reading materials for security operations",
+          "platforms": [
+            {
+              "name": "SANS Reading Room",
+              "url": "https://www.sans.org/reading-room/",
+              "type": "free"
+            },
+            {
+              "name": "NIST SP 800-61 Guide",
+              "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf",
+              "type": "free"
+            },
+            {
+              "name": "Elastic Docs",
+              "url": "https://www.elastic.co/guide/index.html",
+              "type": "free"
+            },
+            {
+              "name": "Splunk Docs",
+              "url": "https://docs.splunk.com",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Read NIST incident handling framework",
+              "resources": [
+                {
+                  "name": "NIST",
+                  "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study SOC design principles",
+              "resources": [
+                {
+                  "name": "SANS SOC Survey",
+                  "url": "https://www.sans.org/reading-room/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Review detection engineering guides",
+              "resources": [
+                {
+                  "name": "Elastic Docs",
+                  "url": "https://www.elastic.co/guide/index.html",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Combine reading with explainer videos",
+              "resources": [
+                {
+                  "name": "YouTube",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        }
+      },
+
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "6-8 weeks",
+          "hours_per_week": "35-45",
+          "description": "Fast-paced intensive learning path for those who can dedicate full-time hours"
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "10-15",
+          "description": "Balanced pace for working professionals with moderate weekly availability"
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "5-10",
+          "description": "Slower pace for those with limited weekly study time"
+        },
+        {
+          "name": "Flexible",
+          "duration": "Self-paced",
+          "hours_per_week": "Varies",
+          "description": "Customizable timeline, recommended completion within 6-12 months",
+          "recommendation": "Adjust based on personal availability and learning speed"
+        }
+      ],
+
+      "hands_on_labs": [
+        {
+          "name": "TryHackMe – Blue Team Labs",
+          "description": "Interactive blue team training rooms including SIEM and threat hunting exercises",
+          "url": "https://tryhackme.com/",
+          "type": "paid",
+          "cost": "$10/month",
+          "categories": ["SIEM", "Threat Hunting", "Incident Response"]
+        },
+        {
+          "name": "PacketLife Labs – PCAP analysis",
+          "description": "Practical packet capture analysis exercises with malware PCAPs",
+          "url": "https://packetlife.net/labs/",
+          "type": "free",
+          "categories": ["Network Security", "Packet Analysis"]
+        },
+        {
+          "name": "Blue Team Labs Online",
+          "description": "Incident response simulations and forensic challenges",
+          "url": "https://blueteamlabs.online/",
+          "type": "freemium",
+          "cost": "Free tier available",
+          "categories": ["Incident Response", "Forensics"]
+        },
+        {
+          "name": "Wireshark Lab Exercises",
+          "description": "Protocol analysis and network traffic inspection exercises",
+          "url": "https://www.wireshark.org/docs/wsug_html_chunked/",
+          "type": "free",
+          "categories": ["Network Protocols", "Traffic Analysis"]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CompTIA Security+",
+          "description": "Foundational security certification",
+          "resources": [
+            {
+              "name": "Exam Objectives",
+              "url": "https://www.comptia.org/certifications/security",
+              "type": "free"
+            },
+            {
+              "name": "Professor Messer Videos",
+              "url": "https://www.professormesser.com/security-plus/sy0-601/sy0-601-video/sy0-601-comptia-security-plus-course/",
+              "type": "free"
+            },
+            {
+              "name": "Official Practice Tests",
+              "url": "https://www.comptia.org/training/resources/practice-tests",
+              "type": "paid"
+            }
+          ],
+          "cost": "$392"
+        },
+        {
+          "name": "Splunk Core Certified User",
+          "description": "Entry-level Splunk certification",
+          "resources": [
+            {
+              "name": "Free Training",
+              "url": "https://www.splunk.com/en_us/training.html",
+              "type": "free"
+            },
+            {
+              "name": "Splunk Fundamentals Course",
+              "url": "https://www.splunk.com/en_us/training/courses/splunk-fundamentals-1.html",
+              "type": "free"
+            }
+          ],
+          "cost": "Free training"
+        },
+        {
+          "name": "TryHackMe Blue Team Path Certificate",
+          "description": "Completion of core Blue Team rooms",
+          "resources": [
+            {
+              "name": "TryHackMe Blue Team Path",
+              "url": "https://tryhackme.com/path/outline/blueteam",
+              "type": "subscription"
+            }
+          ],
+          "cost": "Included in subscription"
+        },
+        {
+          "name": "CompTIA CySA+",
+          "description": "Optional for stronger Incident Response skills",
+          "resources": [
+            {
+              "name": "Exam Objectives",
+              "url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+              "type": "free"
+            },
+            {
+              "name": "Professor Messer CySA+ Videos",
+              "url": "https://www.professormesser.com/cyber-security-analyst-plus/",
+              "type": "free"
+            }
+          ],
+          "cost": "$392"
+        }
+      ]
+    },
+    "mid_level": {
+      "description": "This roadmap builds upon the entry-level foundation and targets analysts with 1–2 years of experience. The goal is to transition from alert triage and response to deeper investigation, proactive threat hunting, detection engineering, and coordination during incidents.",
+      "core_learning_modules": {
+        "advanced_siem_and_detection_engineering": {
+          "description": "Advanced practices in detection engineering using SIEM tools and frameworks.",
+          "platforms": [
+            {
+              "name": "Splunk",
+              "url": "https://www.splunk.com/en_us/training/courses/splunk-power-user-certification-preparation.html",
+              "type": "free_prep"
+            },
+            {
+              "name": "Elastic (ELK)",
+              "url": "https://www.elastic.co/training/",
+              "type": "free_basics"
+            },
+            {
+              "name": "Sigma",
+              "url": "https://github.com/SigmaHQ/sigma",
+              "type": "free"
+            },
+            {
+              "name": "MITRE ATT&CK Navigator",
+              "url": "https://mitre-attack.github.io/attack-navigator/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Complete Splunk Power User (free prep via Splunk docs)",
+              "resources": [
+                {
+                  "name": "Splunk Docs",
+                  "url": "https://docs.splunk.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Tune existing detection rules for noise reduction",
+              "resources": []
+            },
+            {
+              "task": "Build advanced SPL/KQL queries to detect tactics and behaviors",
+              "resources": []
+            },
+            {
+              "task": "Write Sigma rules mapped to MITRE techniques",
+              "resources": [
+                {
+                  "name": "Sigma GitHub",
+                  "url": "https://github.com/SigmaHQ/sigma",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create dashboards and correlation rules with multi-source logs",
+              "resources": []
+            },
+            {
+              "task": "Use ATT&CK Navigator to assess and close detection gaps",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK Navigator",
+                  "url": "https://mitre-attack.github.io/attack-navigator/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "threat_hunting_and_log_analysis": {
+          "description": "Proactive hunting using MITRE-based hypothesis and log analysis.",
+          "platforms": [
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "paid"
+            },
+            {
+              "name": "Velociraptor",
+              "url": "https://www.velociraptor.app/",
+              "type": "free"
+            },
+            {
+              "name": "CyberDefenders",
+              "url": "https://cyberdefenders.org/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Run hypothesis-based hunts using MITRE framework",
+              "resources": []
+            },
+            {
+              "task": "Collect and analyze Sysmon/EDR/Windows logs",
+              "resources": []
+            },
+            {
+              "task": "Hunt for lateral movement (e.g., RDP, WMI, PsExec usage)",
+              "resources": []
+            },
+            {
+              "task": "Identify anomalies in DNS, proxy, and endpoint behavior",
+              "resources": []
+            },
+            {
+              "task": "Document threat hunt reports with findings and remediation",
+              "resources": []
+            }
+          ]
+        },
+        "incident_response_advanced": {
+          "description": "In-depth IR with leadership, memory analysis, and forensic timelines.",
+          "platforms": [
+            {
+              "name": "SANS Webcasts",
+              "url": "https://www.sans.org/webcasts/",
+              "type": "free"
+            },
+            {
+              "name": "DFIR Report",
+              "url": "https://thedfirreport.com/",
+              "type": "free"
+            },
+            {
+              "name": "Autopsy",
+              "url": "https://www.sleuthkit.org/autopsy/",
+              "type": "free"
+            },
+            {
+              "name": "Volatility3",
+              "url": "https://github.com/volatilityfoundation/volatility3",
+              "type": "free"
+            },
+            {
+              "name": "Blue Team Labs Online",
+              "url": "https://blueteamlabs.online",
+              "type": "paid"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Lead containment and remediation steps for malware outbreaks",
+              "resources": []
+            },
+            {
+              "task": "Perform live triage on Windows endpoints",
+              "resources": []
+            },
+            {
+              "task": "Use Volatility3 for memory analysis",
+              "resources": [
+                {
+                  "name": "Volatility3 GitHub",
+                  "url": "https://github.com/volatilityfoundation/volatility3",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Run forensic timelines and identify persistence mechanisms",
+              "resources": []
+            },
+            {
+              "task": "Write IR summary and lessons learned reports",
+              "resources": []
+            }
+          ]
+        },
+        "endpoint_detection_and_host_forensics": {
+          "description": "Deep dive into EDR telemetry, IOC creation, and host-based artifacts.",
+          "platforms": [
+            {
+              "name": "CrowdStrike University",
+              "url": "https://www.crowdstrike.com/services/training/",
+              "type": "paid"
+            },
+            {
+              "name": "Microsoft Learn (Defender)",
+              "url": "https://learn.microsoft.com/en-us/training/modules/defender-endpoint/",
+              "type": "free"
+            },
+            {
+              "name": "SentinelOne Docs",
+              "url": "https://docs.sentinelone.com/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Interpret behavioral detections (process injection, LOLBins)",
+              "resources": []
+            },
+            {
+              "task": "Capture and analyze EDR telemetry (process tree, registry changes)",
+              "resources": []
+            },
+            {
+              "task": "Create endpoint queries to find IOCs and malicious artifacts",
+              "resources": []
+            },
+            {
+              "task": "Integrate EDR telemetry with SIEM for detection enhancement",
+              "resources": []
+            }
+          ]
+        },
+        "security_orchestration_and_automation": {
+          "description": "Automate SOC operations using SOAR platforms and scripting.",
+          "platforms": [
+            {
+              "name": "Splunk SOAR Community",
+              "url": "https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html",
+              "type": "free"
+            },
+            {
+              "name": "XSOAR Docs",
+              "url": "https://docs-cortex.paloaltonetworks.com/",
+              "type": "free"
+            },
+            {
+              "name": "Python scripting labs",
+              "url": "https://www.learnpython.org/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Build playbooks for alert triage and automated response",
+              "resources": []
+            },
+            {
+              "task": "Automate IOC enrichment using public APIs (VirusTotal, AbuseIPDB)",
+              "resources": []
+            },
+            {
+              "task": "Develop scripts for repetitive SOC tasks (log parsing, file hash checks)",
+              "resources": []
+            },
+            {
+              "task": "Use Jupyter Notebooks for investigation workflows",
+              "resources": [
+                {
+                  "name": "Jupyter",
+                  "url": "https://jupyter.org/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "security_operations_documentation_and_intelligence": {
+          "description": "Enhancing SOC maturity with structured documentation and threat intelligence integration.",
+          "platforms": [
+            {
+              "name": "NIST 800-61",
+              "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final",
+              "type": "free"
+            },
+            {
+              "name": "SANS Whitepapers",
+              "url": "https://www.sans.org/white-papers/",
+              "type": "free"
+            },
+            {
+              "name": "MISP",
+              "url": "https://www.misp-project.org/",
+              "type": "free"
+            },
+            {
+              "name": "OpenCTI",
+              "url": "https://www.opencti.io/",
+              "type": "free"
+            },
+            {
+              "name": "Recorded Future",
+              "url": "https://www.recordedfuture.com/",
+              "type": "free_tier"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Read NIST guidance on incident handling",
+              "resources": [
+                {
+                  "name": "NIST SP 800-61",
+                  "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Document detection logic and playbooks clearly for SOC use",
+              "resources": []
+            },
+            {
+              "task": "Integrate threat intelligence feeds into workflows",
+              "resources": []
+            },
+            {
+              "task": "Use MISP to manage and share IOCs internally",
+              "resources": [
+                {
+                  "name": "MISP",
+                  "url": "https://www.misp-project.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create threat reports with context-rich IOC analysis",
+              "resources": []
+            }
+          ]
+        }
+      },
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "8–10 weeks",
+          "hours_per_week": "35–45",
+          "description": "Ideal for full-time learners or those with time off from work. Expect rapid progression and deep immersion."
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "10–15",
+          "description": "Balanced pace for working professionals with moderate availability."
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "5–10",
+          "description": "Low-intensity option for professionals learning in evenings or weekends."
+        },
+        {
+          "name": "Flexible",
+          "duration": "6–12 months",
+          "hours_per_week": "Varies",
+          "description": "Choose your own pace based on life schedule. Regular progress checks recommended."
+        }
+      ],
+      "hands_on_labs": [
+        {
+          "name": "TryHackMe – Threat Hunting & Blue Team Rooms",
+          "description": "Hands-on blue team labs covering threat hunting, SIEM analysis, and incident response scenarios.",
+          "url": "https://tryhackme.com/",
+          "type": "paid",
+          "cost": "$10/month",
+          "categories": ["Threat Hunting", "SIEM", "Incident Response"]
+        },
+        {
+          "name": "CyberDefenders Challenges",
+          "description": "Free challenges for practicing digital forensics, detection engineering, and log analysis.",
+          "url": "https://cyberdefenders.org/",
+          "type": "free",
+          "cost": "Free",
+          "categories": [
+            "Digital Forensics",
+            "Log Analysis",
+            "Detection Engineering"
+          ]
+        },
+        {
+          "name": "Blue Team Labs Online – Complex Incident Simulations",
+          "description": "Pro-tier labs that simulate full-scope security incidents with live systems and tools.",
+          "url": "https://blueteamlabs.online/",
+          "type": "paid",
+          "cost": "Pro tier required",
+          "categories": [
+            "Incident Response",
+            "SOC Operations",
+            "Threat Detection"
+          ]
+        },
+        {
+          "name": "Velociraptor Sandboxes",
+          "description": "Use Velociraptor to collect, analyze, and hunt across endpoints using real-world telemetry.",
+          "url": "https://www.velociraptor.app/",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Endpoint Forensics", "Threat Hunting", "Log Analysis"]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Splunk Core Certified Power User",
+          "description": "Advanced Splunk certification focusing on searching, reporting, and knowledge objects.",
+          "resources": [
+            {
+              "name": "Splunk Power User Certification Overview",
+              "url": "https://www.splunk.com/en_us/training/certification-track/splunk-core-certified-power-user.html",
+              "type": "paid"
+            },
+            {
+              "name": "Splunk Docs – Free Study Materials",
+              "url": "https://docs.splunk.com/Documentation/Splunk/latest/SearchTutorial/WelcometotheSearchTutorial",
+              "type": "free"
+            }
+          ],
+          "cost": "$130"
+        },
+        {
+          "name": "CompTIA CySA+",
+          "description": "Intermediate-level certification for cybersecurity analysts focused on threat detection and response.",
+          "resources": [
+            {
+              "name": "CompTIA CySA+ Official Page",
+              "url": "https://www.comptia.org/certifications/cybersecurity-analyst",
+              "type": "paid"
+            },
+            {
+              "name": "Professor Messer – CySA+ Free Course",
+              "url": "https://www.professormesser.com/cysa-plus/cysa-sy0-601-training-course/",
+              "type": "free"
+            }
+          ],
+          "cost": "$392"
+        },
+        {
+          "name": "Microsoft SC-200: Security Operations Analyst Associate",
+          "description": "Certification focusing on threat detection, response, and incident handling in Microsoft cloud environments.",
+          "resources": [
+            {
+              "name": "Microsoft SC-200 Official Page",
+              "url": "https://learn.microsoft.com/en-us/certifications/security-operations-analyst/",
+              "type": "paid"
+            },
+            {
+              "name": "Microsoft Learn – SC-200 Learning Path",
+              "url": "https://learn.microsoft.com/en-us/training/paths/sc-200-exam-security-operations-analyst/",
+              "type": "free"
+            }
+          ],
+          "cost": "$165"
+        },
+        {
+          "name": "TryHackMe Threat Hunter Certificate",
+          "description": "Earned after completing threat hunting rooms in the Blue Team Path on TryHackMe.",
+          "resources": [
+            {
+              "name": "TryHackMe Blue Team Path",
+              "url": "https://tryhackme.com/path/outline/blue-team",
+              "type": "paid"
+            }
+          ],
+          "cost": "Included in $10/month subscription"
+        },
+        {
+          "name": "GIAC Certified Intrusion Analyst (GCIA)",
+          "description": "Advanced SANS certification focused on network traffic analysis and intrusion detection.",
+          "resources": [
+            {
+              "name": "SANS GCIA Official Page",
+              "url": "https://www.giac.org/certifications/intrusion-analyst-gcia/",
+              "type": "paid"
+            },
+            {
+              "name": "SANS Training Resources",
+              "url": "https://www.sans.org/cyber-security-courses/intrusion-detection-in-depth/",
+              "type": "paid"
+            }
+          ],
+          "cost": "$2000+"
+        },
+        {
+          "name": "GIAC Certified Incident Handler (GCIH)",
+          "description": "Focuses on incident handling, attacker techniques, and defense strategies.",
+          "resources": [
+            {
+              "name": "SANS GCIH Official Page",
+              "url": "https://www.giac.org/certifications/certified-incident-handler-gcih/",
+              "type": "paid"
+            },
+            {
+              "name": "SANS GCIH Course Page",
+              "url": "https://www.sans.org/cyber-security-courses/incident-handling/",
+              "type": "paid"
+            }
+          ],
+          "cost": "$2000+"
+        }
+      ]
+    },
+    "senior_level": {
+      "description": "This roadmap builds on mid-level experience and prepares professionals to lead detection strategy, coordinate incident response, optimize SOC tooling, manage teams, and align with business and risk goals.",
+      "core_learning_modules": {
+        "strategic_soc_leadership_and_operations": {
+          "description": "Lead SOC with maturity models, metrics, escalation, and management strategies.",
+          "platforms": [
+            {
+              "name": "SANS MGT514",
+              "url": "https://www.sans.org/cyber-security-courses/strategic-security-planning-policy-leadership/",
+              "type": "paid"
+            },
+            {
+              "name": "MITRE Engage",
+              "url": "https://engage.mitre.org/",
+              "type": "free"
+            },
+            {
+              "name": "NIST CSF",
+              "url": "https://www.nist.gov/cyberframework",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            {
+              "name": "Gartner",
+              "url": "https://www.gartner.com",
+              "type": "paid"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study NIST CSF, SOC-CMM maturity model",
+              "resources": [
+                {
+                  "name": "NIST CSF",
+                  "url": "https://www.nist.gov/cyberframework",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Define SOC metrics: MTTD, MTTR, alert fidelity, SLA",
+              "resources": []
+            },
+            {
+              "task": "Create leadership dashboards for CISO-level reporting",
+              "resources": []
+            },
+            {
+              "task": "Build and manage SOC shift coverage and escalation models",
+              "resources": []
+            },
+            {
+              "task": "Understand MSSP integration vs internal team maturity models",
+              "resources": []
+            }
+          ]
+        },
+        "detection_engineering_and_mitre_coverage": {
+          "description": "Map and tune detection logic using ATT&CK and Sigma, with version control.",
+          "platforms": [
+            {
+              "name": "MITRE ATT&CK Navigator",
+              "url": "https://attack.mitre.org/",
+              "type": "free"
+            },
+            {
+              "name": "Sigma Repo",
+              "url": "https://github.com/SigmaHQ/sigma",
+              "type": "free"
+            },
+            {
+              "name": "Splunk",
+              "url": "https://www.splunk.com",
+              "type": "paid"
+            },
+            {
+              "name": "Elastic (ELK)",
+              "url": "https://www.elastic.co",
+              "type": "paid"
+            },
+            {
+              "name": "Red Canary Blog",
+              "url": "https://redcanary.com/blog/security-operations/detection-engineering/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Build and refine detection logic aligned with ATT&CK TTPs",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK Navigator",
+                  "url": "https://attack.mitre.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Map existing detection coverage using ATT&CK Navigator",
+              "resources": []
+            },
+            {
+              "task": "Write and test Sigma rules (convert to SPL/KQL where needed)",
+              "resources": [
+                {
+                  "name": "Sigma GitHub",
+                  "url": "https://github.com/SigmaHQ/sigma",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Reduce false positives via rule tuning, feedback loops",
+              "resources": [
+                {
+                  "name": "Red Canary tuning blog",
+                  "url": "https://redcanary.com/blog/security-operations/tuning-detectors/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Maintain detection-as-code repository (version control)",
+              "resources": []
+            }
+          ]
+        },
+        "advanced_incident_handling_and_response_oversight": {
+          "description": "Lead major IR operations, build playbooks, run tabletop exercises, and post-incident reporting.",
+          "platforms": [
+            {
+              "name": "DFIR Report",
+              "url": "https://thedfirreport.com/",
+              "type": "free"
+            },
+            {
+              "name": "Blue Team Labs Online",
+              "url": "https://blueteamlabs.online",
+              "type": "paid"
+            },
+            {
+              "name": "MITRE Engage",
+              "url": "https://engage.mitre.org/",
+              "type": "free"
+            },
+            {
+              "name": "Volatility3",
+              "url": "https://github.com/volatilityfoundation/volatility3",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Lead major incident coordination (ransomware, C2 beaconing)",
+              "resources": []
+            },
+            {
+              "task": "Build and test IR playbooks across multiple attack vectors",
+              "resources": [
+                {
+                  "name": "MITRE Engage",
+                  "url": "https://engage.mitre.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Run tabletop exercises and purple team simulations",
+              "resources": []
+            },
+            {
+              "task": "Analyze root cause and produce executive post-mortems",
+              "resources": []
+            },
+            {
+              "task": "Work with legal/compliance for breach reporting and evidence handling",
+              "resources": []
+            }
+          ]
+        },
+        "security_tooling_architecture_and_automation": {
+          "description": "Architect and automate SOC tools, alert workflows, and log pipelines.",
+          "platforms": [
+            {
+              "name": "Splunk ES",
+              "url": "https://www.splunk.com",
+              "type": "paid"
+            },
+            {
+              "name": "Microsoft Sentinel",
+              "url": "https://azure.microsoft.com/services/azure-sentinel/",
+              "type": "paid"
+            },
+            {
+              "name": "CrowdStrike University",
+              "url": "https://www.crowdstrike.com/services/training/",
+              "type": "paid"
+            },
+            {
+              "name": "SOAR platforms",
+              "url": "https://www.splunk.com/en_us/software/splunk-security-orchestration-and-automation.html",
+              "type": "paid"
+            },
+            { "name": "GitHub", "url": "https://github.com", "type": "free" }
+          ],
+          "checklist": [
+            {
+              "task": "Manage SIEM performance, ingestion pipelines, alert fidelity",
+              "resources": []
+            },
+            {
+              "task": "Evaluate tooling gaps: EDR, proxy, identity, DNS, network",
+              "resources": []
+            },
+            {
+              "task": "Automate alert enrichment and response workflows (SOAR)",
+              "resources": []
+            },
+            {
+              "task": "Integrate threat intel feeds (MISP, AbuseIPDB, OpenCTI)",
+              "resources": [
+                {
+                  "name": "MISP",
+                  "url": "https://www.misp-project.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Build API scripts for custom log collectors and IOC triage",
+              "resources": [
+                {
+                  "name": "GitHub",
+                  "url": "https://github.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "team_management_and_analyst_development": {
+          "description": "Manage and grow SOC teams through feedback, skill paths, and leadership best practices.",
+          "platforms": [
+            {
+              "name": "SANS MGT512",
+              "url": "https://www.sans.org/cyber-security-courses/team-management-leadership/",
+              "type": "paid"
+            },
+            {
+              "name": "Harvard ManageMentor",
+              "url": "https://online.hbs.edu/subject/leadership/",
+              "type": "paid"
+            },
+            {
+              "name": "YouTube Leadership Playlists",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Conduct regular performance reviews and feedback loops",
+              "resources": []
+            },
+            {
+              "task": "Build tiered analyst skill development paths (L1–L3)",
+              "resources": []
+            },
+            {
+              "task": "Run SOC onboarding and skill-building labs",
+              "resources": []
+            },
+            {
+              "task": "Manage burnout, retention, and shift morale",
+              "resources": []
+            },
+            {
+              "task": "Develop cross-team relationships (IR, DevSecOps, Threat Intel)",
+              "resources": []
+            }
+          ]
+        },
+        "security_governance_and_risk_alignment": {
+          "description": "Align SOC operations with business risk, compliance, audits, and governance frameworks.",
+          "platforms": [
+            {
+              "name": "NIST 800-61",
+              "url": "https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final",
+              "type": "free"
+            },
+            {
+              "name": "SANS Whitepapers",
+              "url": "https://www.sans.org/white-papers/",
+              "type": "free"
+            },
+            {
+              "name": "ISO frameworks",
+              "url": "https://www.iso.org/isoiec-27001-information-security.html",
+              "type": "paid"
+            },
+            {
+              "name": "NIST CSF",
+              "url": "https://www.nist.gov/cyberframework",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Translate technical incidents into business impact for leadership",
+              "resources": []
+            },
+            {
+              "task": "Develop executive reporting on threat trends, SOC KPIs",
+              "resources": []
+            },
+            {
+              "task": "Participate in risk committees, compliance reviews",
+              "resources": []
+            },
+            {
+              "task": "Align detection priorities with business risk profiles",
+              "resources": []
+            },
+            {
+              "task": "Track audit requirements and tooling readiness",
+              "resources": []
+            }
+          ]
+        }
+      },
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "10–12 weeks",
+          "hours_per_week": "35–45",
+          "description": "Immersive timeline designed for professionals seeking rapid readiness for senior SOC or management roles."
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "10–15",
+          "description": "Balanced timeline for working professionals aiming to develop leadership and advanced detection skills."
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "5–10",
+          "description": "Longer timeline suited for professionals with limited time availability or concurrent responsibilities."
+        },
+        {
+          "name": "Flexible",
+          "duration": "Self-paced (6–12 months recommended)",
+          "hours_per_week": "Variable",
+          "description": "Ideal for learners who prefer to set their own pace while targeting career growth into SOC management."
+        }
+      ],
+
+      "hands_on_labs": [
+        {
+          "name": "TryHackMe – Threat Hunting & Blue Team Pro Labs",
+          "description": "Interactive blue team labs covering threat hunting, incident response, and real-world detection use cases.",
+          "url": "https://tryhackme.com",
+          "type": "subscription",
+          "cost": "~$10/month (Pro subscription)",
+          "categories": [
+            "Threat Hunting",
+            "Detection Engineering",
+            "Incident Response"
+          ]
+        },
+        {
+          "name": "Blue Team Labs Online – Simulated IR Scenarios",
+          "description": "Hands-on labs simulating advanced incident response and detection scenarios, including APT and ransomware.",
+          "url": "https://blueteamlabs.online",
+          "type": "freemium",
+          "cost": "Free tier with paid Pro labs",
+          "categories": ["Incident Response", "Threat Hunting"]
+        },
+        {
+          "name": "Splunk Attack Range",
+          "description": "Deployable lab environment to simulate attacks and test SIEM detection logic using Splunk.",
+          "url": "https://github.com/splunk/attack_range",
+          "type": "free",
+          "cost": "Free (self-hosted setup required)",
+          "categories": ["Detection Engineering", "SIEM Tuning"]
+        },
+        {
+          "name": "CyberDefenders Challenges",
+          "description": "Free challenges covering forensics, memory analysis, and log-based threat detection.",
+          "url": "https://cyberdefenders.org",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Forensics", "Threat Hunting", "Memory Analysis"]
+        },
+        {
+          "name": "MITRE ATT&CK Workbench",
+          "description": "Create, manage, and visualize custom adversary behavior mappings for detection strategy planning.",
+          "url": "https://attack.mitre.org/resources/Workbench/",
+          "type": "free",
+          "cost": "Free",
+          "categories": [
+            "MITRE ATT&CK",
+            "Detection Engineering",
+            "Threat Intelligence"
+          ]
+        }
+      ],
+      "certifications": [
+        {
+          "name": "CISSP (Certified Information Systems Security Professional)",
+          "description": "Comprehensive certification for senior security professionals focusing on governance, risk, and leadership.",
+          "resources": [
+            {
+              "name": "ISC2 CISSP Official Page",
+              "url": "https://www.isc2.org/Certifications/CISSP",
+              "type": "paid"
+            },
+            {
+              "name": "CISSP Exam Prep on YouTube",
+              "url": "https://www.youtube.com/results?search_query=cissp+exam+prep",
+              "type": "free"
+            }
+          ],
+          "cost": "$749 exam fee"
+        },
+        {
+          "name": "Blue Team Level 2 – Security Blue Team",
+          "description": "Operational certification covering advanced detection engineering, threat hunting, and response strategy.",
+          "resources": [
+            {
+              "name": "Security Blue Team Level 2",
+              "url": "https://www.securityblue.team/certifications/blue-team-level-2-btl2",
+              "type": "paid"
+            },
+            {
+              "name": "Security Blue Team YouTube Channel",
+              "url": "https://www.youtube.com/@SecurityBlueTeam",
+              "type": "free"
+            }
+          ],
+          "cost": "£549 (~$700)"
+        },
+        {
+          "name": "Certified SOC Operations Manager (CSOM)",
+          "description": "Focuses on SOC leadership, process maturity, KPIs, and team development.",
+          "resources": [
+            {
+              "name": "Security Blue Team CSOM",
+              "url": "https://www.securityblue.team/certifications/certified-soc-operations-manager-csom",
+              "type": "paid"
+            }
+          ],
+          "cost": "£499 (~$635)"
+        },
+        {
+          "name": "MITRE ATT&CK Defender (MAD)",
+          "description": "Hands-on certification focused on applying the MITRE ATT&CK framework for detection and defense.",
+          "resources": [
+            {
+              "name": "MAD Certification Page",
+              "url": "https://attack.mitre.org/mad/",
+              "type": "paid"
+            },
+            {
+              "name": "MITRE ATT&CK YouTube",
+              "url": "https://www.youtube.com/@MITREattack",
+              "type": "free"
+            }
+          ],
+          "cost": "$499 per certification"
+        },
+        {
+          "name": "Splunk Enterprise Security Certified Admin",
+          "description": "Advanced certification for configuring, managing, and optimizing Splunk ES in a security operations context.",
+          "resources": [
+            {
+              "name": "Splunk ES Admin Cert Page",
+              "url": "https://www.splunk.com/en_us/training/certification-track/splunk-enterprise-security-certified-admin.html",
+              "type": "paid"
+            },
+            {
+              "name": "Splunk YouTube Channel",
+              "url": "https://www.youtube.com/user/splunkvideos",
+              "type": "free"
+            }
+          ],
+          "cost": "$130 exam fee (plus training)"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "SOC Analyst"
+  },
+  {
+    "id": 2,
+    "name": "Penetration Tester"
+  },
+  {
+    "id": 3,
+    "name": "Security Engineer"
+  },
+  {
+    "id": 4,
+    "name": "Cybersecurity Analyst"
+  },
+  {
+    "id": 5,
+    "name": "Threat Intelligence Analyst"
+  },
+  {
+    "id": 6,
+    "name": "Security Architect"
+  },
+  {
+    "id": 7,
+    "name": "GRC Analyst"
+  },
+  {
+    "id": 8,
+    "name": "Malware Analyst"
+  },
+  {
+    "id": 9,
+    "name": "Forensics Analyst"
+  },
+  {
+    "id": 10,
+    "name": "Security Administrator"
+  },
+  {
+    "id": 11,
+    "name": "Application Security Specialist"
+  },
+  {
+    "id": 12,
+    "name": "Cloud Security Engineer"
+  },
+  {
+    "id": 13,
+    "name": "Network Security Engineer"
+  },
+  {
+    "id": 14,
+    "name": "Infrastructure Engineer"
+  }
+]

@@ -1,0 +1,1366 @@
+{
+  "learning_path": {
+    "entry_level": {
+      "description": "This roadmap is shared across all entry-level Penetration Tester timelines (ASAP, 6 Months, 1 Year, Flexible). The only difference is in the suggested duration per module, adjusted below per timeline.",
+      "core_learning_modules": {
+        "security_fundamentals_and_networking": {
+          "description": "Fundamental security concepts, networking, and system basics needed for penetration testing.",
+          "platforms": [
+            {
+              "name": "Professor Messer Security+",
+              "url": "https://www.professormesser.com/security-plus/sy0-701/sy0-701-comptia-security-plus-course/",
+              "type": "free"
+            },
+            {
+              "name": "Cybrary",
+              "url": "https://www.cybrary.it",
+              "type": "free_account"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            {
+              "name": "Microsoft Learn",
+              "url": "https://learn.microsoft.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Complete CompTIA Security+ fundamentals videos",
+              "resources": [
+                {
+                  "name": "Professor Messer Security+ Course",
+                  "url": "https://www.professormesser.com/security-plus/sy0-701/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study TCP/IP, OSI model, and common protocols",
+              "resources": [
+                {
+                  "name": "Cybrary Networking Courses",
+                  "url": "https://www.cybrary.it",
+                  "type": "free_account"
+                }
+              ]
+            },
+            {
+              "task": "Watch network security basics videos",
+              "resources": [
+                {
+                  "name": "YouTube Network Security",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn about firewalls, IDS/IPS, and network segmentation",
+              "resources": [
+                {
+                  "name": "Cybrary Networking Modules",
+                  "url": "https://www.cybrary.it",
+                  "type": "free_account"
+                }
+              ]
+            },
+            {
+              "task": "Complete basic Linux command line tutorials",
+              "resources": [
+                {
+                  "name": "YouTube Linux CLI",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study Windows administration basics",
+              "resources": [
+                {
+                  "name": "Microsoft Learn",
+                  "url": "https://learn.microsoft.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "web_application_security_fundamentals": {
+          "description": "Core OWASP top 10 vulnerabilities and web application exploitation techniques.",
+          "platforms": [
+            {
+              "name": "OWASP WebGoat",
+              "url": "https://owasp.org/www-project-webgoat/",
+              "type": "free"
+            },
+            {
+              "name": "PortSwigger Web Security Academy",
+              "url": "https://portswigger.net/web-security",
+              "type": "free"
+            },
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "subscription"
+            },
+            {
+              "name": "DVWA",
+              "url": "http://www.dvwa.co.uk/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Complete OWASP Top 10 training",
+              "resources": [
+                {
+                  "name": "OWASP WebGoat",
+                  "url": "https://owasp.org/www-project-webgoat/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice SQL injection attacks",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy",
+                  "url": "https://portswigger.net/web-security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn XSS (Cross‑Site Scripting) techniques",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy",
+                  "url": "https://portswigger.net/web-security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study CSRF, XXE, and authentication bypasses",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy",
+                  "url": "https://portswigger.net/web-security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Complete TryHackMe OWASP Top 10 room",
+              "resources": [
+                {
+                  "name": "TryHackMe",
+                  "url": "https://tryhackme.com",
+                  "type": "subscription"
+                }
+              ]
+            },
+            {
+              "task": "Practice with DVWA (Damn Vulnerable Web Application)",
+              "resources": [
+                {
+                  "name": "DVWA",
+                  "url": "http://www.dvwa.co.uk/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "penetration_testing_tools_and_methodology": {
+          "description": "Learn PTES methodology and hands‑on with key pentesting tools: Nmap, Burp, Metasploit.",
+          "platforms": [
+            {
+              "name": "Kali Linux Docs",
+              "url": "https://www.kali.org/docs/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "subscription"
+            },
+            {
+              "name": "PTES",
+              "url": "http://www.pentest-standard.org/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Install and configure Kali Linux",
+              "resources": [
+                {
+                  "name": "Kali Linux Docs",
+                  "url": "https://www.kali.org/docs/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Nmap for network discovery and port scanning",
+              "resources": [
+                {
+                  "name": "Nmap Official Documentation",
+                  "url": "https://nmap.org/book/inst-windows.html",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Master Burp Suite Community Edition for web testing",
+              "resources": [
+                {
+                  "name": "PortSwigger",
+                  "url": "https://portswigger.net/burp/communitydownload",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice with Metasploit Framework basics",
+              "resources": [
+                {
+                  "name": "TryHackMe Metasploit Rooms",
+                  "url": "https://tryhackme.com",
+                  "type": "subscription"
+                }
+              ]
+            },
+            {
+              "task": "Study PTES (Penetration Testing Execution Standard)",
+              "resources": [
+                {
+                  "name": "PTES Documentation",
+                  "url": "http://www.pentest-standard.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn basic enumeration tools: dirb, gobuster, enum4linux",
+              "resources": [
+                {
+                  "name": "YouTube Enumeration Tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "network_penetration_testing": {
+          "description": "Network-level exploitation techniques including scanning, enumeration, priv‑esc, lateral movement.",
+          "platforms": [
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "subscription"
+            },
+            {
+              "name": "VulnHub",
+              "url": "https://www.vulnhub.com/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Practice network scanning and enumeration",
+              "resources": [
+                {
+                  "name": "TryHackMe",
+                  "url": "https://tryhackme.com",
+                  "type": "subscription"
+                }
+              ]
+            },
+            {
+              "task": "Learn SMB, FTP, SSH, and RDP enumeration techniques",
+              "resources": [
+                {
+                  "name": "YouTube Enumeration Tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study privilege escalation techniques for Windows and Linux",
+              "resources": [
+                {
+                  "name": "TryHackMe",
+                  "url": "https://tryhackme.com",
+                  "type": "subscription"
+                }
+              ]
+            },
+            {
+              "task": "Complete VulnHub vulnerable VMs",
+              "resources": [
+                {
+                  "name": "VulnHub",
+                  "url": "https://www.vulnhub.com/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice lateral movement and post exploitation",
+              "resources": [
+                {
+                  "name": "TryHackMe",
+                  "url": "https://tryhackme.com",
+                  "type": "subscription"
+                }
+              ]
+            },
+            {
+              "task": "Learn basic Active Directory enumeration",
+              "resources": [
+                {
+                  "name": "YouTube AD Enumeration",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "scripting_and_automation": {
+          "description": "Use Python, Bash, and PowerShell to automate recon, scanning, and exploit development.",
+          "platforms": [
+            {
+              "name": "Python.org",
+              "url": "https://www.python.org/",
+              "type": "free"
+            },
+            {
+              "name": "Codecademy",
+              "url": "https://www.codecademy.com/",
+              "type": "free_basics"
+            },
+            {
+              "name": "Microsoft Learn PowerShell",
+              "url": "https://learn.microsoft.com/powershell/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Learn Python basics and syntax",
+              "resources": [
+                {
+                  "name": "Python Official Tutorials",
+                  "url": "https://www.python.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Write simple port scanners and enumeration scripts",
+              "resources": [
+                {
+                  "name": "YouTube Python Hacking Tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study Bash scripting for automation",
+              "resources": [
+                {
+                  "name": "YouTube Bash Scripting",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice with PowerShell for Windows environments",
+              "resources": [
+                {
+                  "name": "Microsoft Learn PowerShell",
+                  "url": "https://learn.microsoft.com/powershell/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create basic exploit scripts and payloads",
+              "resources": [
+                {
+                  "name": "YouTube Exploit Development",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn to modify existing exploits for specific scenarios",
+              "resources": [
+                {
+                  "name": "GitHub Repositories",
+                  "url": "https://github.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "reporting_and_documentation": {
+          "description": "Develop professional reports, use CVSS, legal/ethical standards, and evidence collection.",
+          "platforms": [
+            {
+              "name": "SANS Reading Room",
+              "url": "https://www.sans.org/white-papers/",
+              "type": "free"
+            },
+            {
+              "name": "PTES Reporting Guidelines",
+              "url": "http://www.pentest-standard.org/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study professional penetration testing report formats",
+              "resources": [
+                {
+                  "name": "SANS Whitepapers",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn to document vulnerabilities with CVSS scoring",
+              "resources": [
+                {
+                  "name": "NIST CVSS Documentation",
+                  "url": "https://www.nist.gov/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice writing executive summaries and technical details",
+              "resources": [
+                {
+                  "name": "PTES Guidelines",
+                  "url": "http://www.pentest-standard.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create vulnerability remediation recommendations",
+              "resources": [
+                {
+                  "name": "YouTube Reporting Tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn to take proper screenshots and evidence collection",
+              "resources": [
+                {
+                  "name": "YouTube Forensic Evidence Capture",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study legal and ethical considerations in penetration testing",
+              "resources": [
+                {
+                  "name": "SANS Whitepapers",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "8-10 weeks",
+          "hours_per_week": "35-45",
+          "description": "Fastest track option for individuals able to dedicate full-time hours to skill acquisition."
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "10-15",
+          "description": "Balanced timeline for learners managing part-time study alongside other commitments."
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "5-10",
+          "description": "Long-term plan ideal for full-time workers or students looking to learn at a steady pace."
+        },
+        {
+          "name": "Flexible",
+          "duration": "Self-paced",
+          "hours_per_week": "Variable",
+          "description": "Open-ended path for those with unpredictable schedules; target completion within 6-12 months."
+        }
+      ],
+
+      "hands_on_labs": [],
+      "certifications": []
+    },
+    "mid_level": {
+      "description": "This roadmap builds upon the entry-level foundation and targets penetration testers with 1–2 years of experience. The goal is to transition from basic vulnerability identification to advanced exploitation, specialized testing domains, and client engagement.",
+      "core_learning_modules": {
+        "advanced_web_application_security": {
+          "description": "Deep dive into advanced web vulnerabilities and exploitation techniques.",
+          "platforms": [
+            {
+              "name": "PortSwigger Web Security Academy",
+              "url": "https://portswigger.net/web-security",
+              "type": "free"
+            },
+            {
+              "name": "OWASP Testing Guide",
+              "url": "https://owasp.org/www-project-web-security-testing-guide/",
+              "type": "free"
+            },
+            {
+              "name": "PentesterLab",
+              "url": "https://pentesterlab.com/",
+              "type": "paid"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master advanced SQL injection techniques (blind, time-based, second-order)",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy – SQL Injection",
+                  "url": "https://portswigger.net/web-security/sql-injection",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study advanced XSS payloads and filter bypasses",
+              "resources": [
+                {
+                  "name": "PentesterLab Web Badge",
+                  "url": "https://pentesterlab.com/pro",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Learn Server-Side Request Forgery (SSRF) exploitation",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy – SSRF",
+                  "url": "https://portswigger.net/web-security/ssrf",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice XXE (XML External Entity) attacks",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy – XXE",
+                  "url": "https://portswigger.net/web-security/xxe",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study deserialization vulnerabilities",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy – Deserialization",
+                  "url": "https://portswigger.net/web-security/deserialization",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn JWT attacks and bypasses",
+              "resources": [
+                {
+                  "name": "PentesterLab JWT Badge",
+                  "url": "https://pentesterlab.com/pro",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Master SSTI (Server-Side Template Injection)",
+              "resources": [
+                {
+                  "name": "PortSwigger Academy – SSTI",
+                  "url": "https://portswigger.net/web-security/server-side-template-injection",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_network_penetration_testing": {
+          "description": "Offensive techniques in AD, privilege escalation, pivoting, and network exploitation.",
+          "platforms": [
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "paid"
+            },
+            {
+              "name": "Hack The Box",
+              "url": "https://www.hackthebox.com",
+              "type": "paid"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master Active Directory enumeration and attacks",
+              "resources": [
+                {
+                  "name": "TryHackMe AD Labs",
+                  "url": "https://tryhackme.com/path/active-directory",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Learn Kerberoasting and ASREPRoasting techniques",
+              "resources": [
+                {
+                  "name": "Hack The Box AD Challenges",
+                  "url": "https://www.hackthebox.com",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Study Golden Ticket and Silver Ticket attacks",
+              "resources": [
+                {
+                  "name": "YouTube – Golden Ticket tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice advanced privilege escalation (Windows & Linux)",
+              "resources": [
+                {
+                  "name": "Hack The Box PrivEsc Labs",
+                  "url": "https://www.hackthebox.com",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Learn persistence mechanisms and backdoors",
+              "resources": [
+                {
+                  "name": "TryHackMe Linux PrivEsc",
+                  "url": "https://tryhackme.com",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Master pivoting and tunneling techniques",
+              "resources": [
+                {
+                  "name": "TryHackMe Pivoting Labs",
+                  "url": "https://tryhackme.com",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Study VLAN hopping and network segmentation bypass",
+              "resources": [
+                {
+                  "name": "YouTube tutorials – VLAN hopping",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "wireless_security_testing": {
+          "description": "Techniques for testing wireless protocols, cracking, and rogue access attacks.",
+          "platforms": [
+            {
+              "name": "Aircrack-ng Docs",
+              "url": "https://www.aircrack-ng.org",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "paid"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Learn WPA/WPA2 and WEP cracking techniques",
+              "resources": [
+                {
+                  "name": "Aircrack-ng Documentation",
+                  "url": "https://www.aircrack-ng.org/doku.php",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study WPS attacks and vulnerabilities",
+              "resources": [
+                {
+                  "name": "YouTube WPS attack demos",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice evil twin and rogue access point attacks",
+              "resources": [
+                {
+                  "name": "YouTube rogue AP tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Bluetooth and NFC testing",
+              "resources": [
+                {
+                  "name": "YouTube Bluetooth pentesting",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study wireless network reconnaissance",
+              "resources": [
+                {
+                  "name": "TryHackMe Wireless Labs",
+                  "url": "https://tryhackme.com",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Practice with tools like Kismet, Reaver, and Fern WiFi Cracker",
+              "resources": [
+                {
+                  "name": "YouTube tool tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "mobile_application_security": {
+          "description": "Assessment of Android and iOS apps focusing on reverse, storage, network, and OWASP top vulnerabilities.",
+          "platforms": [
+            {
+              "name": "OWASP MSTG",
+              "url": "https://owasp.org/www-project-mobile-security-testing-guide/",
+              "type": "free"
+            },
+            {
+              "name": "MobSF",
+              "url": "https://mobsf.github.io/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study OWASP Mobile Top 10 vulnerabilities",
+              "resources": [
+                {
+                  "name": "OWASP MSTG",
+                  "url": "https://owasp.org/www-project-mobile-security-testing-guide/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Android APK analysis and reverse engineering",
+              "resources": [
+                {
+                  "name": "MobSF",
+                  "url": "https://mobsf.github.io/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice iOS application security testing",
+              "resources": [
+                {
+                  "name": "OWASP MSTG iOS section",
+                  "url": "https://owasp.org/www-project-mobile-security-testing-guide/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study mobile data storage vulnerabilities",
+              "resources": [
+                {
+                  "name": "YouTube mobile app testing",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn mobile network communication testing",
+              "resources": [
+                {
+                  "name": "OWASP MSTG",
+                  "url": "https://owasp.org/www-project-mobile-security-testing-guide/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice with tools like Burp Suite Mobile Assistant and JADX",
+              "resources": [
+                {
+                  "name": "YouTube JADX tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "exploit_development_fundamentals": {
+          "description": "Foundational exploit development covering buffer overflows, ROP, assembly, and debugging.",
+          "platforms": [
+            {
+              "name": "Exploit Database",
+              "url": "https://www.exploit-db.com",
+              "type": "free"
+            },
+            {
+              "name": "LiveOverflow YouTube",
+              "url": "https://www.youtube.com/channel/UC6ljVbr9DWuvHJgkHLLK6LQ",
+              "type": "free"
+            },
+            {
+              "name": "TryHackMe",
+              "url": "https://tryhackme.com",
+              "type": "paid"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study buffer overflow vulnerabilities and exploitation",
+              "resources": [
+                {
+                  "name": "LiveOverflow – Buffer Overflow series",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn assembly language basics",
+              "resources": [
+                {
+                  "name": "YouTube Assembly tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice stack-based buffer overflow exploitation",
+              "resources": [
+                {
+                  "name": "TryHackMe Exploit Development Labs",
+                  "url": "https://tryhackme.com",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Study Return Oriented Programming (ROP) basics",
+              "resources": [
+                {
+                  "name": "YouTube ROP tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn to modify existing exploits",
+              "resources": [
+                {
+                  "name": "Exploit Database",
+                  "url": "https://www.exploit-db.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice with debuggers like GDB and Immunity Debugger",
+              "resources": [
+                {
+                  "name": "YouTube GDB tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_reporting_and_client_engagement": {
+          "description": "Refined reporting, communication, and regulatory compliance for client-facing engagements.",
+          "platforms": [
+            {
+              "name": "SANS Reading Room",
+              "url": "https://www.sans.org/reading-room",
+              "type": "free"
+            },
+            {
+              "name": "NIST Cybersecurity Framework",
+              "url": "https://www.nist.gov/cyberframework",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Learn advanced vulnerability classification and risk assessment",
+              "resources": [
+                {
+                  "name": "NIST Cybersecurity Framework",
+                  "url": "https://www.nist.gov/cyberframework",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study business impact analysis for security findings",
+              "resources": [
+                {
+                  "name": "SANS Whitepapers",
+                  "url": "https://www.sans.org/white-papers",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice client presentation and communication skills",
+              "resources": [
+                {
+                  "name": "YouTube presentation tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn to write remediation roadmaps and timelines",
+              "resources": [
+                {
+                  "name": "SANS Whitepapers",
+                  "url": "https://www.sans.org/white-papers",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study regulatory compliance requirements (PCI DSS, HIPAA, SOX)",
+              "resources": [
+                {
+                  "name": "YouTube compliance overview",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Master evidence collection and chain of custody",
+              "resources": [
+                {
+                  "name": "SANS Whitepapers",
+                  "url": "https://www.sans.org/white-papers",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        }
+      },
+
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "10-12 weeks",
+          "hours_per_week": "35-45",
+          "description": "Full-time commitment for rapid skill development in penetration testing. Ideal for career switchers or those preparing for an urgent job opportunity."
+        },
+        {
+          "name": "6 Months (Balanced)",
+          "duration": "24 weeks",
+          "hours_per_week": "10-15",
+          "description": "Well-paced timeline for working professionals aiming to build expertise steadily alongside their current job."
+        },
+        {
+          "name": "1 Year (Part-Time)",
+          "duration": "48 weeks",
+          "hours_per_week": "5-10",
+          "description": "Designed for long-term learners who prefer gradual mastery while managing other responsibilities."
+        },
+        {
+          "name": "Flexible (Self-Paced)",
+          "duration": "6–12 months",
+          "hours_per_week": "variable",
+          "description": "Ideal for those who prefer to study at their own rhythm. Flexible but structured enough to finish within a year with moderate consistency."
+        }
+      ],
+
+      "hands_on_labs": [
+        {
+          "name": "Hack The Box – Active Machines & Retired Boxes",
+          "description": "Hands‑on exploitation of real-world systems across difficulty levels.",
+          "url": "https://www.hackthebox.com/",
+          "type": "paid",
+          "cost": "$20/month",
+          "categories": [
+            "Network Exploitation",
+            "Web Exploitation",
+            "Privilege Escalation"
+          ]
+        },
+        {
+          "name": "TryHackMe – Advanced Penetration Testing Paths",
+          "description": "Guided advanced tracks covering Red Team, AD, web, and binary exploitation.",
+          "url": "https://tryhackme.com/",
+          "type": "paid",
+          "cost": "$10/month",
+          "categories": [
+            "Active Directory",
+            "Exploit Development",
+            "Web Security"
+          ]
+        },
+        {
+          "name": "PentesterLab – Web Application Security Exercises",
+          "description": "Structured web app hacking labs, from basics to professional scenarios.",
+          "url": "https://pentesterlab.com/",
+          "type": "paid",
+          "cost": "$20/month",
+          "categories": ["Web Exploitation", "Injection Attacks", "Auth Bypass"]
+        },
+        {
+          "name": "VulnHub – Advanced Vulnerable VMs",
+          "description": "Downloadable VMs designed for practicing full-stack exploitation and post‑exploitation.",
+          "url": "https://www.vulnhub.com/",
+          "type": "free",
+          "cost": "Free",
+          "categories": [
+            "Network Exploitation",
+            "Privilege Escalation",
+            "Post‑Exploitation"
+          ]
+        }
+      ],
+      "certifications": []
+    },
+
+    "senior_level": {
+      "description": "This roadmap builds on mid-level experience and prepares professionals to lead penetration testing teams, conduct advanced red team operations, develop custom exploits, and align security testing with business objectives. It is ideal for seasoned professionals aiming to transition into lead roles in offensive security or red team strategy.",
+      "core_learning_modules": {
+        "red_team_operations_and_advanced_persistence": {
+          "description": "Lead red team engagements by mastering persistence, C2 frameworks, TTP evasion, and lateral movement.",
+          "platforms": [
+            {
+              "name": "MITRE ATT&CK",
+              "url": "https://attack.mitre.org/",
+              "type": "free"
+            },
+            {
+              "name": "Red Team Field Manual",
+              "url": "https://github.com/tanc7/hacking-books/blob/master/RTFM%20-%20Red%20Team%20Field%20Manual%20v3.pdf",
+              "type": "free"
+            },
+            {
+              "name": "Cobalt Strike Documentation",
+              "url": "https://www.cobaltstrike.com/support/user-manuals",
+              "type": "licensed"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study MITRE ATT&CK framework for red team TTP mapping",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK",
+                  "url": "https://attack.mitre.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn advanced C2 frameworks (Cobalt Strike, Empire, Covenant)",
+              "resources": [
+                {
+                  "name": "Cobalt Strike User Manuals",
+                  "url": "https://www.cobaltstrike.com/support/user-manuals",
+                  "type": "licensed"
+                }
+              ]
+            },
+            {
+              "task": "Master living‑off‑the‑land techniques and LOLBins",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK",
+                  "url": "https://attack.mitre.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study advanced persistence mechanisms across platforms",
+              "resources": [
+                {
+                  "name": "Red Team Field Manual",
+                  "url": "https://github.com/tanc7/hacking-books/blob/master/RTFM%20-%20Red%20Team%20Field%20Manual%20v3.pdf",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn EDR/AV evasion techniques",
+              "resources": [
+                {
+                  "name": "YouTube Evasion Tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice advanced lateral movement & domain dominance",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK",
+                  "url": "https://attack.mitre.org/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_exploit_development_and_research": {
+          "description": "Develop and understand advanced exploitation including kernel, heap, ROP/JOP, and 0‑day research.",
+          "platforms": [
+            {
+              "name": "Exploit-DB",
+              "url": "https://www.exploit-db.com",
+              "type": "free"
+            },
+            {
+              "name": "LiveOverflow YouTube",
+              "url": "https://www.youtube.com/channel/UC6ljVbr9DWuvHJgkHLLK6LQ",
+              "type": "free"
+            },
+            {
+              "name": "GitHub Exploit Dev Resources",
+              "url": "https://github.com/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master advanced buffer overflow techniques (SEH, ASLR bypass)",
+              "resources": [
+                {
+                  "name": "LiveOverflow Overflows",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study heap‑based vulnerabilities and exploitation",
+              "resources": [
+                {
+                  "name": "YouTube Heap Exploitation",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn ROP & JOP chain building",
+              "resources": [
+                {
+                  "name": "GitHub ROP Resources",
+                  "url": "https://github.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ],
+
+          "timeline_options": [
+            {
+              "name": "ASAP (Intensive)",
+              "duration": "12–16 weeks",
+              "hours_per_week": "35–45",
+              "description": "Accelerated timeline designed for full-time commitment. Ideal for professionals aiming to transition into senior penetration testing roles quickly."
+            },
+            {
+              "name": "6 Months",
+              "duration": "24 weeks",
+              "hours_per_week": "15–20",
+              "description": "Balanced timeline for working professionals who want steady progress without full-time dedication."
+            },
+            {
+              "name": "1 Year",
+              "duration": "48 weeks",
+              "hours_per_week": "8–12",
+              "description": "Ideal for professionals with limited weekly availability, offering a manageable pace to reach senior-level skills within a year."
+            },
+            {
+              "name": "Flexible",
+              "duration": "6–12 months",
+              "hours_per_week": "Variable",
+              "description": "Open-ended path for those with unpredictable schedules; target completion within 6-12 months."
+            }
+          ],
+
+          "hands_on_labs": [
+            {
+              "name": "Detection Lab",
+              "description": "Build and test detection capabilities in a full Windows domain environment with pre-installed logging tools.",
+              "url": "https://github.com/clong/DetectionLab",
+              "type": "free",
+              "cost": "Free",
+              "categories": [
+                "Purple Team",
+                "Detection Engineering",
+                "SIEM Testing"
+              ]
+            },
+            {
+              "name": "Advanced Persistent Threat (APT) Simulation Labs",
+              "description": "Custom labs for emulating APT-style attacks and full kill chain simulations.",
+              "url": "",
+              "type": "custom",
+              "cost": "Varies",
+              "categories": [
+                "Red Team Operations",
+                "C2 Simulation",
+                "Threat Emulation"
+              ]
+            },
+            {
+              "name": "Red Team vs Blue Team Exercises",
+              "description": "Organization-dependent exercises coordinating red and blue teams in real-time response and defense.",
+              "url": "",
+              "type": "custom",
+              "cost": "Varies",
+              "categories": [
+                "Red Team Ops",
+                "Incident Response",
+                "Team Coordination"
+              ]
+            },
+            {
+              "name": "Custom Exploit Development Labs",
+              "description": "Self-built labs dedicated to developing and testing custom exploits in controlled environments.",
+              "url": "",
+              "type": "self-built",
+              "cost": "Free",
+              "categories": [
+                "Exploit Development",
+                "Kernel Research",
+                "0‑day Proof of Concept"
+              ]
+            }
+          ],
+          "certifications": []
+        }
+      }
+    }
+  }
+}

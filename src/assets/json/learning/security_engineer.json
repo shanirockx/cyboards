@@ -1,0 +1,1807 @@
+{
+  "learning_path": {
+    "entry_level": {
+      "description": "This roadmap is shared across all entry-level Security Engineer timelines (ASAP, 6 Months, 1 Year, Flexible). The only difference is in the suggested duration per module, adjusted below per timeline. It is designed for beginners seeking a foundation in enterprise security architecture, vulnerability management, secure system design, and cloud security principles.",
+
+      "core_learning_modules": {
+        "security_fundamentals_and_risk_management": {
+          "description": "Core principles of information security and foundational risk management techniques.",
+          "platforms": [
+            {
+              "name": "Cybrary",
+              "url": "https://www.cybrary.it/course/comptia-security-plus",
+              "type": "free_account"
+            },
+            {
+              "name": "NIST Cybersecurity Framework",
+              "url": "https://www.nist.gov/cyberframework",
+              "type": "free"
+            },
+            {
+              "name": "SANS Reading Room",
+              "url": "https://www.sans.org/white-papers/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study CIA Triad and fundamental security principles",
+              "resources": [
+                {
+                  "name": "Cybrary – Security+ Course",
+                  "url": "https://www.cybrary.it/course/comptia-security-plus",
+                  "type": "free_account"
+                }
+              ]
+            },
+            {
+              "task": "Learn NIST Cybersecurity Framework components",
+              "resources": [
+                {
+                  "name": "NIST Cybersecurity Framework",
+                  "url": "https://www.nist.gov/cyberframework",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Complete risk assessment and management fundamentals",
+              "resources": [
+                {
+                  "name": "SANS Risk Management Papers",
+                  "url": "https://www.sans.org/white-papers/risk-management/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study security governance and policy development",
+              "resources": [
+                {
+                  "name": "Cybrary – Security Policy Course",
+                  "url": "https://www.cybrary.it",
+                  "type": "free_account"
+                }
+              ]
+            },
+            {
+              "task": "Learn threat modeling basics (STRIDE, PASTA)",
+              "resources": [
+                {
+                  "name": "YouTube Threat Modeling STRIDE",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Complete business continuity and disaster recovery planning",
+              "resources": [
+                {
+                  "name": "SANS BCP/DR Whitepapers",
+                  "url": "https://www.sans.org/white-papers/business-continuity",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "network_security_and_infrastructure": {
+          "description": "Understanding secure networking concepts, firewalls, IDS/IPS, and infrastructure security.",
+          "platforms": [
+            {
+              "name": "Cisco Networking Academy",
+              "url": "https://www.netacad.com/",
+              "type": "free"
+            },
+            {
+              "name": "pfSense Documentation",
+              "url": "https://docs.netgate.com/pfsense/en/latest/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master TCP/IP networking and OSI model",
+              "resources": [
+                {
+                  "name": "Cisco NetAcad – Intro to Networks",
+                  "url": "https://www.netacad.com/courses/packet-tracer",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn firewall configuration and management",
+              "resources": [
+                {
+                  "name": "pfSense Docs",
+                  "url": "https://docs.netgate.com/pfsense/en/latest/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study VPN technologies (IPSec, SSL/TLS)",
+              "resources": [
+                {
+                  "name": "YouTube VPN Tutorials",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice IDS/IPS deployment and tuning",
+              "resources": [
+                {
+                  "name": "YouTube IDS/IPS Labs",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn network segmentation and VLAN security",
+              "resources": [
+                {
+                  "name": "Cisco NetAcad VLAN Labs",
+                  "url": "https://www.netacad.com/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study wireless security protocols and implementation",
+              "resources": [
+                {
+                  "name": "YouTube Wireless Security",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "identity_and_access_management": {
+          "description": "Learn access control protocols, directory services, and identity federation systems.",
+          "platforms": [
+            {
+              "name": "Microsoft Learn",
+              "url": "https://learn.microsoft.com/en-us/training/paths/identity-access-management-fundamentals/",
+              "type": "free"
+            },
+            {
+              "name": "Okta Documentation",
+              "url": "https://help.okta.com/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Learn Active Directory fundamentals and security",
+              "resources": [
+                {
+                  "name": "Microsoft Learn – AD DS Overview",
+                  "url": "https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study LDAP, SAML, and OAuth protocols",
+              "resources": [
+                {
+                  "name": "YouTube IAM Protocols",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice Single Sign‑On implementation",
+              "resources": [
+                {
+                  "name": "Okta Docs – SSO",
+                  "url": "https://help.okta.com/en/prod/Content/Topics/Authentication/SSO.htm",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Multi‑Factor Authentication deployment",
+              "resources": [
+                {
+                  "name": "Microsoft Learn MFA",
+                  "url": "https://learn.microsoft.com/en-us/azure/active-directory/authentication/howto-mfa-getstarted",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study RBAC principles",
+              "resources": [
+                {
+                  "name": "YouTube RBAC Explained",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice privileged access management concepts",
+              "resources": [
+                {
+                  "name": "YouTube PAM Concepts",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "endpoint_security_and_system_hardening": {
+          "description": "Develop proficiency in securing endpoints and hardening systems against attacks.",
+          "platforms": [
+            {
+              "name": "CIS Controls",
+              "url": "https://www.cisecurity.org/controls",
+              "type": "free"
+            },
+            {
+              "name": "Microsoft Security Compliance Toolkit",
+              "url": "https://www.microsoft.com/en-us/download/details.aspx?id=55319",
+              "type": "free"
+            },
+            {
+              "name": "NIST SP 800-53",
+              "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Learn Windows and Linux system hardening",
+              "resources": [
+                {
+                  "name": "CIS Benchmarks",
+                  "url": "https://www.cisecurity.org/cis-benchmarks",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study endpoint detection and response solutions",
+              "resources": [
+                {
+                  "name": "YouTube EDR Overview",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice antivirus and anti‑malware deployment",
+              "resources": [
+                {
+                  "name": "YouTube AV Deployment",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn patch management and vulnerability assessment",
+              "resources": [
+                {
+                  "name": "NIST SP 800-53 Controls",
+                  "url": "https://csrc.nist.gov/publications/detail/sp/800-53/rev-5/final",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study data loss prevention implementation",
+              "resources": [
+                {
+                  "name": "YouTube DLP Tutorial",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice mobile device management configuration",
+              "resources": [
+                {
+                  "name": "Microsoft Learn MDM",
+                  "url": "https://learn.microsoft.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "compliance_and_regulatory_frameworks": {
+          "description": "Understand major compliance requirements and regulatory frameworks.",
+          "platforms": [
+            {
+              "name": "PCI Security Standards Council",
+              "url": "https://www.pcisecuritystandards.org",
+              "type": "free"
+            },
+            {
+              "name": "HIPAA",
+              "url": "https://www.hhs.gov/hipaa/index.html",
+              "type": "free"
+            },
+            {
+              "name": "SOX Online",
+              "url": "https://www.sox-online.com/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study PCI DSS requirements and implementation",
+              "resources": [
+                {
+                  "name": "PCI DSS QRG",
+                  "url": "https://www.pcisecuritystandards.org/documents/PCI-DSS-QRG-v4_0.pdf",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn HIPAA security and privacy requirements",
+              "resources": [
+                {
+                  "name": "HIPAA.gov – Requirements",
+                  "url": "https://www.hhs.gov/hipaa/index.html",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study SOX IT controls and compliance",
+              "resources": [
+                {
+                  "name": "SOX Online",
+                  "url": "https://www.sox-online.com/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn GDPR data protection requirements",
+              "resources": [
+                {
+                  "name": "YouTube GDPR Overview",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study ISO 27001 information security management",
+              "resources": [
+                {
+                  "name": "YouTube ISO 27001 Tutorial",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice compliance auditing and documentation",
+              "resources": [
+                {
+                  "name": "SANS Compliance Papers",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "security_tools_and_technologies": {
+          "description": "Hands‑on learning with key security tools and platforms used across the industry.",
+          "platforms": [
+            {
+              "name": "Splunk Fundamentals",
+              "url": "https://www.splunk.com/en_us/training/free-courses/splunk-fundamentals-1.html",
+              "type": "free"
+            },
+            {
+              "name": "Nessus Documentation",
+              "url": "https://docs.tenable.com/nessus/",
+              "type": "free"
+            },
+            {
+              "name": "OWASP",
+              "url": "https://owasp.org/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Learn SIEM deployment and basic log analysis",
+              "resources": [
+                {
+                  "name": "Splunk Fundamentals 1",
+                  "url": "https://www.splunk.com/en_us/training/free-courses/splunk-fundamentals-1.html",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice vulnerability scanning with Nessus/OpenVAS",
+              "resources": [
+                {
+                  "name": "Nessus/OpenVAS",
+                  "url": "https://docs.tenable.com/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study web application security testing tools",
+              "resources": [
+                {
+                  "name": "OWASP",
+                  "url": "https://owasp.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn security orchestration and automation basics",
+              "resources": [
+                {
+                  "name": "Youtube",
+                  "url": "https://www.youtube.com/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice with penetration testing tools (Nmap, Burp Suite)",
+              "resources": [
+                {
+                  "name": "Youtube",
+                  "url": "https://www.youtube.com/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study threat intelligence platforms and feeds ",
+              "resources": [
+                {
+                  "name": "Youtube",
+                  "url": "https://www.youtube.com/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        }
+      },
+
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "8-10 weeks",
+          "hours_per_week": "35-45",
+          "description": "Accelerated path ideal for full-time learners seeking to transition into entry-level security roles as quickly as possible."
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "10-15",
+          "description": "Balanced timeline suitable for individuals managing part-time work or academic commitments while studying."
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "5-10",
+          "description": "Low-intensity schedule perfect for professionals or students with limited weekly availability."
+        },
+        {
+          "name": "Flexible",
+          "duration": "Self-paced (Recommended: 6–12 months)",
+          "hours_per_week": "Variable",
+          "description": "Adaptable path for learners who prefer to design their own schedule and pace based on personal availability and learning"
+        }
+      ],
+      "hands_on_labs": [
+        {
+          "name": "VirtualBox – Lab Environment Setup",
+          "description": "Use Oracle VirtualBox to build multi-OS testing environments for security experiments.",
+          "url": "https://www.virtualbox.org/",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Virtualization", "Lab Setup", "Testing Environments"]
+        },
+        {
+          "name": "pfSense Lab – Firewall Configuration",
+          "description": "Hands-on firewall and network security setup using pfSense virtual appliances.",
+          "url": "https://docs.netgate.com/pfsense/en/latest/",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Firewall Management", "Network Security", "VPN"]
+        },
+        {
+          "name": "Active Directory Lab – Identity Management",
+          "description": "Practice building and securing Active Directory environments with Microsoft tools.",
+          "url": "https://learn.microsoft.com/en-us/training/paths/identity-access-management-fundamentals/",
+          "type": "free",
+          "cost": "Free",
+          "categories": [
+            "Identity Management",
+            "Active Directory",
+            "Access Control"
+          ]
+        },
+        {
+          "name": "Vulnerability Scanning Lab – Nessus/OpenVAS",
+          "description": "Deploy and configure Nessus or OpenVAS to perform vulnerability discovery and reporting.",
+          "url": "https://docs.tenable.com/nessus/",
+          "type": "free",
+          "cost": "Free/Trial",
+          "categories": [
+            "Vulnerability Scanning",
+            "Risk Assessment",
+            "Reporting"
+          ]
+        }
+      ],
+
+      "certifications": []
+    },
+
+    "mid_level": {
+      "description": "This roadmap builds upon the entry-level foundation and targets security engineers with 1–2 years of experience. The goal is to transition from basic security implementation to advanced architecture design, automation, and specialized security domains.",
+      "core_learning_modules": {
+        "cloud_security_architecture": {
+          "description": "Design and implement secure cloud environments across AWS, Azure, and GCP with IaC and container protection.",
+          "platforms": [
+            {
+              "name": "AWS Security Hub & Services",
+              "url": "https://aws.amazon.com/security/",
+              "type": "free_tier"
+            },
+            {
+              "name": "Azure Security Center & Sentinel",
+              "url": "https://learn.microsoft.com/en-us/azure/security-center/",
+              "type": "free_tier"
+            },
+            {
+              "name": "Google Cloud Security Command Center",
+              "url": "https://cloud.google.com/security-command-center",
+              "type": "free_tier"
+            },
+            {
+              "name": "Terraform Documentation",
+              "url": "https://www.terraform.io/docs",
+              "type": "free"
+            },
+            {
+              "name": "Kubernetes Security Documentation",
+              "url": "https://kubernetes.io/docs/concepts/security/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master AWS security services (IAM, GuardDuty, CloudTrail, Config)",
+              "resources": [
+                {
+                  "name": "AWS Security Docs",
+                  "url": "https://aws.amazon.com/security/",
+                  "type": "free_tier"
+                }
+              ]
+            },
+            {
+              "task": "Learn Azure security controls (Security Center, Sentinel, Key Vault)",
+              "resources": [
+                {
+                  "name": "Azure Security Center Docs",
+                  "url": "https://learn.microsoft.com/en-us/azure/security-center/",
+                  "type": "free_tier"
+                }
+              ]
+            },
+            {
+              "task": "Study GCP security (Cloud Security Command Center, IAM)",
+              "resources": [
+                {
+                  "name": "GCP Security Center Docs",
+                  "url": "https://cloud.google.com/security-command-center",
+                  "type": "free_tier"
+                }
+              ]
+            },
+            {
+              "task": "Implement IaC security (Terraform, CloudFormation)",
+              "resources": [
+                {
+                  "name": "Terraform Docs",
+                  "url": "https://www.terraform.io/docs",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn container security (Docker, Kubernetes)",
+              "resources": [
+                {
+                  "name": "Kubernetes Security Docs",
+                  "url": "https://kubernetes.io/docs/concepts/security/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice cloud compliance and governance frameworks",
+              "resources": [
+                {
+                  "name": "YouTube Cloud Compliance",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "devsecops_and_secure_development": {
+          "description": "Embed security into development pipelines using SAST, DAST, SCA, IaC scanning, and secrets management.",
+          "platforms": [
+            {
+              "name": "OWASP DevSecOps",
+              "url": "https://owasp.org/www-project-devsecops-guideline/",
+              "type": "free"
+            },
+            {
+              "name": "GitLab Security",
+              "url": "https://about.gitlab.com/security/secure-cicd/",
+              "type": "free_tier"
+            },
+            {
+              "name": "Jenkins Documentation",
+              "url": "https://www.jenkins.io/doc/",
+              "type": "free"
+            },
+            {
+              "name": "Terraform Documentation",
+              "url": "https://www.terraform.io/docs",
+              "type": "free"
+            },
+            {
+              "name": "HashiCorp Vault",
+              "url": "https://www.vaultproject.io/docs",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Implement security in CI/CD pipelines",
+              "resources": [
+                {
+                  "name": "GitLab Security Docs",
+                  "url": "https://about.gitlab.com/security/secure-cicd/",
+                  "type": "free_tier"
+                }
+              ]
+            },
+            {
+              "task": "Learn SAST integration",
+              "resources": [
+                {
+                  "name": "OWASP SAST Guidelines",
+                  "url": "https://owasp.org/www-project-devsecops-guideline/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice DAST automation",
+              "resources": [
+                {
+                  "name": "OWASP DAST Tools",
+                  "url": "https://owasp.org/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study SCA for dependencies",
+              "resources": [
+                {
+                  "name": "YouTube SCA Tools",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement IaC scanning",
+              "resources": [
+                {
+                  "name": "Terraform IaC Scanning",
+                  "url": "https://www.terraform.io/docs",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn secrets management in workflows",
+              "resources": [
+                {
+                  "name": "HashiCorp Vault Docs",
+                  "url": "https://www.vaultproject.io/docs",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "security_automation_and_orchestration": {
+          "description": "Automate security configurations and incident response workflows using Python, Ansible, SOAR, and APIs.",
+          "platforms": [
+            {
+              "name": "Ansible Documentation",
+              "url": "https://docs.ansible.com",
+              "type": "free"
+            },
+            {
+              "name": "Python.org",
+              "url": "https://www.python.org",
+              "type": "free"
+            },
+            {
+              "name": "Splunk SOAR",
+              "url": "https://www.splunk.com/en_us/software/soar.html",
+              "type": "free_tier"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            { "name": "GitHub", "url": "https://github.com", "type": "free" },
+            {
+              "name": "Terraform",
+              "url": "https://www.terraform.io/docs",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master Python scripting for security automation",
+              "resources": [
+                {
+                  "name": "Python.org",
+                  "url": "https://www.python.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Ansible for security configuration management",
+              "resources": [
+                {
+                  "name": "Ansible Docs",
+                  "url": "https://docs.ansible.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement Security Orchestration, Automation, and Response (SOAR)",
+              "resources": [
+                {
+                  "name": "Splunk SOAR Docs",
+                  "url": "https://www.splunk.com/en_us/software/soar.html",
+                  "type": "free_tier"
+                }
+              ]
+            },
+            {
+              "task": "Practice API integration for security tools",
+              "resources": [
+                {
+                  "name": "YouTube API Security",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Build automated incident response workflows",
+              "resources": [
+                {
+                  "name": "GitHub Security Projects",
+                  "url": "https://github.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Infrastructure as Code for security deployments",
+              "resources": [
+                {
+                  "name": "Terraform Docs",
+                  "url": "https://www.terraform.io/docs",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_threat_detection_and_analysis": {
+          "description": "Develop expertise in SIEM, detection engineering, threat hunting, and behavioral analytics using industry tools.",
+          "platforms": [
+            {
+              "name": "Elastic Security",
+              "url": "https://www.elastic.co/security",
+              "type": "free"
+            },
+            {
+              "name": "Sigma Rules",
+              "url": "https://sigmahq.io",
+              "type": "free"
+            },
+            {
+              "name": "MITRE ATT&CK",
+              "url": "https://attack.mitre.org",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            },
+            {
+              "name": "MISP",
+              "url": "https://www.misp-project.org",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Design and implement advanced SIEM use cases",
+              "resources": [
+                {
+                  "name": "Elastic Security Docs",
+                  "url": "https://www.elastic.co/security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn behavioral analytics and anomaly detection",
+              "resources": [
+                {
+                  "name": "YouTube Security Analytics",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Create custom detection rules using Sigma format",
+              "resources": [
+                {
+                  "name": "Sigma Rule Docs",
+                  "url": "https://sigmahq.io",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement threat hunting programs and methodologies",
+              "resources": [
+                {
+                  "name": "MITRE ATT&CK Framework",
+                  "url": "https://attack.mitre.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study machine learning applications in security",
+              "resources": [
+                {
+                  "name": "YouTube ML Security",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice threat intelligence integration and analysis",
+              "resources": [
+                {
+                  "name": "MISP Documentation",
+                  "url": "https://www.misp-project.org",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "zero_trust_architecture_and_identity_security": {
+          "description": "Implement Zero Trust principles with identity-centric controls, PAM, and continuous verification.",
+          "platforms": [
+            {
+              "name": "NIST Zero Trust",
+              "url": "https://www.nist.gov/publications/zero-trust-architecture",
+              "type": "free"
+            },
+            {
+              "name": "Microsoft Zero Trust",
+              "url": "https://www.microsoft.com/security/blog/zero-trust/",
+              "type": "free"
+            },
+            {
+              "name": "Okta Identity",
+              "url": "https://www.okta.com/zero-trust/",
+              "type": "free_tier"
+            },
+            {
+              "name": "Azure Docs",
+              "url": "https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study NIST Zero Trust Architecture principles",
+              "resources": [
+                {
+                  "name": "NIST SP 800-207",
+                  "url": "https://www.nist.gov/publications/zero-trust-architecture",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement identity-centric security controls",
+              "resources": [
+                {
+                  "name": "Microsoft Learn - Identity Security",
+                  "url": "https://www.microsoft.com/security/blog/zero-trust/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Deploy Privileged Access Management (PAM) solutions",
+              "resources": [
+                {
+                  "name": "YouTube PAM Overview",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice Conditional Access and risk-based authentication",
+              "resources": [
+                {
+                  "name": "Microsoft Docs - Conditional Access",
+                  "url": "https://learn.microsoft.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn Just-In-Time (JIT) access and Privileged Identity Management",
+              "resources": [
+                {
+                  "name": "Azure PIM Docs",
+                  "url": "https://learn.microsoft.com/en-us/azure/active-directory/privileged-identity-management/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement continuous trust verification mechanisms",
+              "resources": [
+                {
+                  "name": "YouTube Zero Trust",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "data_security_and_privacy_engineering": {
+          "description": "Protect sensitive data through encryption, DLP, anonymization, and regulatory compliance.",
+          "platforms": [
+            { "name": "GDPR.eu", "url": "https://gdpr.eu", "type": "free" },
+            {
+              "name": "CCPA Guide",
+              "url": "https://oag.ca.gov/privacy/ccpa",
+              "type": "free"
+            },
+            {
+              "name": "HashiCorp Vault",
+              "url": "https://www.vaultproject.io/docs",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Implement data classification and labeling systems",
+              "resources": [
+                {
+                  "name": "Microsoft Purview Docs",
+                  "url": "https://learn.microsoft.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn encryption key management and rotation",
+              "resources": [
+                {
+                  "name": "HashiCorp Vault Docs",
+                  "url": "https://www.vaultproject.io/docs",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study data loss prevention (DLP) advanced deployment",
+              "resources": [
+                {
+                  "name": "YouTube DLP Tools",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement privacy-by-design principles",
+              "resources": [
+                { "name": "GDPR.eu", "url": "https://gdpr.eu", "type": "free" }
+              ]
+            },
+            {
+              "task": "Practice data anonymization and pseudonymization techniques",
+              "resources": [
+                {
+                  "name": "YouTube Data Privacy",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn database security and transparent data encryption",
+              "resources": [
+                {
+                  "name": "YouTube DB Security",
+                  "url": "https://www.youtube.com",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "10-12 weeks",
+          "hours_per_week": "35-45",
+          "description": "Fast-track intensive learning path designed for professionals seeking immediate transition into mid-level security engineering roles."
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "10-15",
+          "description": "Balanced timeline for those managing a job or other commitments while steadily progressing through core modules."
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "5-10",
+          "description": "Extended learning plan ideal for professionals with limited weekly availability or those preferring a deep"
+        }
+      ],
+      "hands_on_labs": [
+        {
+          "name": "AWS Free Tier – Cloud Security Labs",
+          "description": "Hands-on experience with IAM, GuardDuty, CloudTrail, and security groups using AWS’s free tier services.",
+          "url": "https://aws.amazon.com/free",
+          "type": "free",
+          "cost": "Free tier available",
+          "categories": ["Cloud Security", "IAM", "Monitoring"]
+        },
+        {
+          "name": "Microsoft Azure Security Labs",
+          "description": "Practice with Azure Security Center, Sentinel, Key Vault, and role-based access using the Azure free account.",
+          "url": "https://azure.microsoft.com/en-us/free",
+          "type": "free",
+          "cost": "Free tier available",
+          "categories": ["Cloud Security", "SIEM", "Identity Management"]
+        },
+        {
+          "name": "Google Cloud Security Labs",
+          "description": "Explore IAM, Cloud Security Command Center, and network security controls using GCP’s free tier.",
+          "url": "https://cloud.google.com/free",
+          "type": "free",
+          "cost": "Free tier available",
+          "categories": ["Cloud Security", "GCP", "IAM"]
+        },
+        {
+          "name": "Docker & Kubernetes Security Labs",
+          "description": "Simulate container hardening, secure deployments, and network policies using local Docker and Kubernetes environments.",
+          "url": "https://kubernetes.io/docs/tutorials/kubernetes-basics/",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Container Security", "DevSecOps", "Kubernetes"]
+        },
+        {
+          "name": "GitLab CI/CD Security Pipeline Lab",
+          "description": "Implement SAST, DAST, dependency scanning, and secrets detection in DevSecOps workflows with GitLab’s free tier.",
+          "url": "https://docs.gitlab.com/ee/user/application_security/",
+          "type": "free",
+          "cost": "Free tier available",
+          "categories": ["DevSecOps", "CI/CD Security", "Automation"]
+        },
+        {
+          "name": "Elastic Stack SIEM Lab",
+          "description": "Build detection rules and analyze security logs using Elastic Security features on Elastic Stack.",
+          "url": "https://www.elastic.co/security-labs",
+          "type": "free",
+          "cost": "Free tier available",
+          "categories": ["SIEM", "Threat Detection", "Log Analysis"]
+        }
+      ],
+      "certifications": []
+    },
+
+    "senior_level": {
+      "description": "This roadmap builds on mid-level experience and prepares professionals to lead security architecture design, enterprise security strategy, and organizational security transformation initiatives.",
+      "core_learning_modules": {
+        "enterprise_security_architecture_strategy": {
+          "description": "Design, plan, and govern enterprise-wide security architectures using frameworks like SABSA, TOGAF, and NIST.",
+          "platforms": [
+            { "name": "SABSA", "url": "https://sabsa.org", "type": "paid" },
+            {
+              "name": "TOGAF",
+              "url": "https://www.opengroup.org/togaf",
+              "type": "free"
+            },
+            {
+              "name": "NIST Cybersecurity Framework",
+              "url": "https://www.nist.gov/cyberframework",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master enterprise architecture frameworks (SABSA, TOGAF)",
+              "resources": [
+                {
+                  "name": "SABSA Institute",
+                  "url": "https://sabsa.org",
+                  "type": "paid"
+                },
+                {
+                  "name": "TOGAF Documentation",
+                  "url": "https://www.opengroup.org/togaf",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Design security reference architectures",
+              "resources": [
+                {
+                  "name": "NIST Cybersecurity Framework",
+                  "url": "https://www.nist.gov/cyberframework",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study security governance and risk management frameworks",
+              "resources": [
+                {
+                  "name": "SANS White Papers",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn strategic security planning and roadmap development",
+              "resources": [
+                {
+                  "name": "YouTube - Security Strategy",
+                  "url": "https://www.youtube.com/results?search_query=security+strategy+planning",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice business case development for security investments",
+              "resources": [
+                {
+                  "name": "Harvard Business Review",
+                  "url": "https://hbr.org/search?term=business+case+security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Master security architecture review and approval processes",
+              "resources": [
+                {
+                  "name": "YouTube - Architecture Review",
+                  "url": "https://www.youtube.com/results?search_query=security+architecture+review",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_cloud_security_and_multi_cloud_strategy": {
+          "description": "Scale secure cloud architectures across multiple platforms, with CSPM, container security, serverless, and hybrid integration.",
+          "platforms": [
+            {
+              "name": "Cloud Security Alliance",
+              "url": "https://cloudsecurityalliance.org",
+              "type": "free"
+            },
+            {
+              "name": "AWS Well‑Architected",
+              "url": "https://aws.amazon.com/architecture/well-architected/",
+              "type": "free"
+            },
+            {
+              "name": "Azure Architecture Center",
+              "url": "https://learn.microsoft.com/azure/architecture",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Design multi-cloud security architectures",
+              "resources": [
+                {
+                  "name": "Cloud Security Alliance Guidelines",
+                  "url": "https://cloudsecurityalliance.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement Cloud Security Posture Management (CSPM)",
+              "resources": [
+                {
+                  "name": "AWS Well‑Architected Security Pillar",
+                  "url": "https://aws.amazon.com/architecture/well-architected/",
+                  "type": "free"
+                },
+                {
+                  "name": "Azure CSPM Docs",
+                  "url": "https://learn.microsoft.com/azure/security/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Master container orchestration security (Kubernetes, OpenShift)",
+              "resources": [
+                {
+                  "name": "Kubernetes Security Docs",
+                  "url": "https://kubernetes.io/docs/concepts/security/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study serverless security and FaaS protection",
+              "resources": [
+                {
+                  "name": "YouTube - Serverless Security",
+                  "url": "https://www.youtube.com/results?search_query=serverless+security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement cloud-native security tools and services",
+              "resources": [
+                {
+                  "name": "AWS Security Hub",
+                  "url": "https://aws.amazon.com/security/",
+                  "type": "free_tier"
+                }
+              ]
+            },
+            {
+              "task": "Practice hybrid cloud security and integration strategies",
+              "resources": [
+                {
+                  "name": "Azure Hybrid Security Docs",
+                  "url": "https://learn.microsoft.com/azure/security/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "security_leadership_and_team_management": {
+          "description": "Develop leadership and management skills necessary to lead security teams and initiatives across the enterprise.",
+          "platforms": [
+            {
+              "name": "Harvard Business School Online",
+              "url": "https://online.hbs.edu",
+              "type": "paid"
+            },
+            {
+              "name": "Project Management Institute",
+              "url": "https://www.pmi.org",
+              "type": "paid"
+            },
+            {
+              "name": "YouTube Leadership",
+              "url": "https://www.youtube.com/results?search_query=security+leadership",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study leadership and team management principles",
+              "resources": [
+                {
+                  "name": "HBS Online",
+                  "url": "https://online.hbs.edu",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Learn project and program management for security initiatives",
+              "resources": [
+                {
+                  "name": "PMI Frameworks",
+                  "url": "https://www.pmi.org",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Practice stakeholder management and executive communication",
+              "resources": [
+                {
+                  "name": "YouTube - Stakeholder Management",
+                  "url": "https://www.youtube.com/results?search_query=stakeholder+communication",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Master budget planning and resource allocation",
+              "resources": [
+                {
+                  "name": "YouTube - Budget Planning Security",
+                  "url": "https://www.youtube.com/results?search_query=budget+planning+security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn vendor management and procurement processes",
+              "resources": [
+                {
+                  "name": "SANS Reading Room Vendor Management",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study organizational change management for security transformation",
+              "resources": [
+                {
+                  "name": "YouTube - Change Management Security",
+                  "url": "https://www.youtube.com/results?search_query=change+management+security",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "advanced_threat_intelligence_and_security_operations": {
+          "description": "Design and operate enterprise-level threat intelligence and SOC capabilities, with APT detection and active defense.",
+          "platforms": [
+            {
+              "name": "MITRE Engage",
+              "url": "https://attack.mitre.org/engage/",
+              "type": "free"
+            },
+            {
+              "name": "NIST SP 800-150",
+              "url": "https://www.nist.gov/publications/guide-cyber-threat-intelligence",
+              "type": "free"
+            },
+            {
+              "name": "Recorded Future",
+              "url": "https://www.recordedfuture.com",
+              "type": "trial"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com/results?search_query=security+operations",
+              "type": "free"
+            },
+            {
+              "name": "SANS Reading Room",
+              "url": "https://www.sans.org/white-papers/",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Design threat intelligence programs and processes",
+              "resources": [
+                {
+                  "name": "NIST SP 800-150",
+                  "url": "https://www.nist.gov/publications/guide-cyber-threat-intelligence",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Implement APT detection strategies",
+              "resources": [
+                {
+                  "name": "MITRE Engage",
+                  "url": "https://attack.mitre.org/engage/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study cyber threat landscape and nation‑state activities",
+              "resources": [
+                {
+                  "name": "YouTube - Threat Intelligence",
+                  "url": "https://www.youtube.com/results?search_query=threat+intelligence",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Design SOC architecture and processes",
+              "resources": [
+                {
+                  "name": "SANS SOC Design Papers",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice threat modeling for complex enterprise environments",
+              "resources": [
+                {
+                  "name": "YouTube - Threat Modeling",
+                  "url": "https://www.youtube.com/results?search_query=threat+modeling",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn cyber deception and active defense techniques",
+              "resources": [
+                {
+                  "name": "MITRE Engage",
+                  "url": "https://attack.mitre.org/engage/",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "regulatory_compliance_and_legal_frameworks": {
+          "description": "Ensure enterprise security readiness through legal and regulatory compliance, privacy, audit, and reporting frameworks.",
+          "platforms": [
+            { "name": "IAPP", "url": "https://iapp.org", "type": "paid" },
+            { "name": "ISACA", "url": "https://www.isaca.org", "type": "paid" },
+            {
+              "name": "NIST Privacy Framework",
+              "url": "https://www.nist.gov/privacy-framework",
+              "type": "free"
+            },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com/results?search_query=cybersecurity+compliance",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Master global privacy regulations (GDPR, CCPA, LGPD)",
+              "resources": [
+                {
+                  "name": "IAPP Resources",
+                  "url": "https://iapp.org",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Study industry‑specific compliance requirements (HIPAA, PCI DSS, SOX)",
+              "resources": [
+                {
+                  "name": "YouTube - Compliance Requirements",
+                  "url": "https://www.youtube.com/results?search_query=HIPAA+PCI+SOX",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn data governance and privacy program management",
+              "resources": [
+                {
+                  "name": "NIST Privacy Framework",
+                  "url": "https://www.nist.gov/privacy-framework",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice compliance gap analysis and remediation planning",
+              "resources": [
+                {
+                  "name": "ISACA White Papers",
+                  "url": "https://www.isaca.org",
+                  "type": "paid"
+                }
+              ]
+            },
+            {
+              "task": "Study legal aspects of cybersecurity and incident response",
+              "resources": [
+                {
+                  "name": "SANS Legal Cybersecurity Papers",
+                  "url": "https://www.sans.org/white-papers/",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn audit management and regulatory reporting",
+              "resources": [
+                {
+                  "name": "YouTube - Audit Management",
+                  "url": "https://www.youtube.com/results?search_query=audit+management",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        },
+        "emerging_technologies_and_innovation": {
+          "description": "Stay ahead in cybersecurity by exploring AI/ML security, quantum-safe cryptography, IoT/OT, blockchain, 5G, and emerging research.",
+          "platforms": [
+            {
+              "name": "MIT OpenCourseWare",
+              "url": "https://ocw.mit.edu",
+              "type": "free"
+            },
+            {
+              "name": "Coursera",
+              "url": "https://www.coursera.org",
+              "type": "free"
+            },
+            { "name": "arXiv", "url": "https://arxiv.org", "type": "free" },
+            {
+              "name": "YouTube",
+              "url": "https://www.youtube.com/results?search_query=emerging+security+technologies",
+              "type": "free"
+            }
+          ],
+          "checklist": [
+            {
+              "task": "Study AI/ML security",
+              "resources": [
+                {
+                  "name": "MIT OCW AI Security",
+                  "url": "https://ocw.mit.edu",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn quantum implications for cryptography",
+              "resources": [
+                {
+                  "name": "Coursera Quantum Computing",
+                  "url": "https://www.coursera.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice IoT and OT security architecture design",
+              "resources": [
+                {
+                  "name": "YouTube - IoT Security",
+                  "url": "https://www.youtube.com/results?search_query=IoT+security",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Study blockchain and distributed ledger security",
+              "resources": [
+                {
+                  "name": "Coursera Blockchain Security",
+                  "url": "https://www.coursera.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Learn 5G network security considerations",
+              "resources": [
+                {
+                  "name": "arXiv 5G Security Papers",
+                  "url": "https://arxiv.org",
+                  "type": "free"
+                }
+              ]
+            },
+            {
+              "task": "Practice emerging threat research and analysis",
+              "resources": [
+                {
+                  "name": "YouTube - Emerging Threats",
+                  "url": "https://www.youtube.com/results?search_query=emerging+threats",
+                  "type": "free"
+                }
+              ]
+            }
+          ]
+        }
+      },
+
+      "timeline_options": [
+        {
+          "name": "ASAP (Intensive)",
+          "duration": "12–16 weeks",
+          "hours_per_week": "35–45",
+          "description": "Accelerated, full-time commitment for those aiming to transition quickly into senior cybersecurity roles or architecture positions."
+        },
+        {
+          "name": "6 Months",
+          "duration": "24 weeks",
+          "hours_per_week": "15–20",
+          "description": "Balanced timeline ideal for professionals looking to build advanced skills while managing part-time work or study."
+        },
+        {
+          "name": "1 Year",
+          "duration": "48 weeks",
+          "hours_per_week": "8–12",
+          "description": "Ideal for full-time professionals who prefer a steady pace to deeply understand enterprise security architecture and leadership concepts."
+        },
+        {
+          "name": "Flexible",
+          "duration": "Self-paced (Recommended 6–18 months)",
+          "hours_per_week": "Varies",
+          "description": "Customized pace for learners with unpredictable schedules. Best for long-term career planners and continuous learners."
+        }
+      ],
+
+      "hands_on_labs": [
+        {
+          "name": "Azure Sandbox – Enterprise Architecture Labs",
+          "description": "Use Azure Sandbox environments to prototype complex enterprise security architectures with bastions, firewalls, AD, VNets.",
+          "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/azure-sandbox/azure-sandbox",
+          "type": "free",
+          "cost": "Free (Azure free account required)",
+          "categories": ["Enterprise Architecture", "Lab Prototyping"]
+        },
+        {
+          "name": "Pwned Labs – Multi‑Cloud Security CTF",
+          "description": "Hands-on cloud security challenges across AWS, GCP, and Azure, focusing on misconfigurations and attack/defense scenarios.",
+          "url": "https://labs.pwnedlabs.io/",
+          "type": "paid",
+          "cost": "Subscription required",
+          "categories": ["Cloud Security", "Multi‑Cloud", "CTF"]
+        },
+        {
+          "name": "Awesome‑CloudSec‑Labs",
+          "description": "A curated GitHub collection of self-hosted cloud labs (CloudGoat, GCPGoat, PurpleCloud) for AWS, Azure and GCP experiments.",
+          "url": "https://github.com/zerobytesecure/Awesome-CloudSec-Labs",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Cloud Security", "CTF", "Self‑Hosted"]
+        },
+        {
+          "name": "Multi‑Cloud Red Team Analyst (MCRTA)",
+          "description": "Professional-level multi-cloud red team training and labs across AWS, Azure, and GCP.",
+          "url": "https://labs.cyberwarfare.live",
+          "type": "paid",
+          "cost": "Paid course",
+          "categories": ["Red Team Ops", "Cloud Security", "Multi‑Cloud"]
+        },
+        {
+          "name": "Thunder CTF – Cloud Security Challenge",
+          "description": "Deployable CTF framework for practicing cloud security scenarios on a budget.",
+          "url": "https://arxiv.org/abs/2107.12566",
+          "type": "free",
+          "cost": "Free",
+          "categories": ["Cloud Security", "CTF", "DIY Labs"]
+        },
+        {
+          "name": "Red Hat Interactive Labs",
+          "description": "Practice secure containerization, automation, and Linux security using browser-based Red Hat labs.",
+          "url": "https://www.redhat.com/en/interactive-labs",
+          "type": "free",
+          "cost": "Free trial available",
+          "categories": ["Container Security", "Linux Security", "Automation"]
+        }
+      ],
+
+      "certifications": []
+    }
+  }
+}

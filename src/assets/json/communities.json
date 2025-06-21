@@ -1,0 +1,289 @@
+{
+  "cybersecurity_communities": {
+    "study_groups": [
+      {
+        "id": 1,
+        "category": "SOC Analyst Study Groups",
+        "groups": [
+          {
+            "name": "SOC Analyst – Entry Level (SIEM Buddies)",
+            "members": 120,
+            "join_link": "← Join"
+          },
+          {
+            "name": "SOC Analyst – Mid Level (IR Practitioners)",
+            "members": 85,
+            "join_link": "← Join"
+          },
+          {
+            "name": "SOC Analyst – Senior Level (Purple Team Experts)",
+            "members": 45,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "category": "Penetration Tester Study Groups",
+        "groups": [
+          {
+            "name": "Penetration Tester – Entry Level (OSCP Study Group)",
+            "members": 230,
+            "join_link": "← Join",
+            "references": ["medium.com", "thecybersecguru.com", "hackthebox.com"]
+          },
+          {
+            "name": "Penetration Tester – Mid Level (Web/API Pentest Crew)",
+            "members": 150,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Penetration Tester – Senior Level (Red Team Cafe)",
+            "members": 95,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Security Engineer Study Groups",
+        "groups": [
+          {
+            "name": "Security Engineer – Entry Level (Infra Sec 101)",
+            "members": 110,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Security Engineer – Mid Level (Network & Cloud Sec)",
+            "members": 130,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Security Engineer – Senior Level (Architect Roundtable)",
+            "members": 60,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Cybersecurity Analyst Study Groups",
+        "groups": [
+          {
+            "name": "Cybersecurity Analyst – Entry Level (SOC & Monitoring)",
+            "members": 140,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Cybersecurity Analyst – Mid Level (Threat Response Team)",
+            "members": 100,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Cybersecurity Analyst – Senior Level (Security Intelligence Hub)",
+            "members": 70,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Threat Intelligence Analyst Study Groups",
+        "groups": [
+          {
+            "name": "Threat Intel – Entry Level (OSINT Hunters)",
+            "members": 90,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Threat Intel – Mid Level (Threat Trends Analysts)",
+            "members": 75,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Threat Intel – Senior Level (APT Research Team)",
+            "members": 40,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Security Architect Study Groups",
+        "groups": [
+          {
+            "name": "Security Architect – Entry Level (Arch Essentials)",
+            "members": 60,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Security Architect – Mid Level (Cloud/ZT Architects)",
+            "members": 85,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Security Architect – Senior Level (Enterprise Architects Forum)",
+            "members": 50,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "GRC Analyst Study Groups",
+        "groups": [
+          {
+            "name": "GRC Analyst – Entry Level (GRC Basics)",
+            "members": 80,
+            "join_link": "← Join"
+          },
+          {
+            "name": "GRC Analyst – Mid Level (Risk & Compliance Crew)",
+            "members": 65,
+            "join_link": "← Join"
+          },
+          {
+            "name": "GRC Analyst – Senior Level (Policy & Audit Leaders)",
+            "members": 35,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Malware Analyst Study Groups",
+        "groups": [
+          {
+            "name": "Malware Analyst – Entry Level (Malware Basics)",
+            "members": 70,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Malware Analyst – Mid Level (RE Practitioners)",
+            "members": 55,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Malware Analyst – Senior Level (Advanced RE Lounge)",
+            "members": 30,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Forensics Analyst Study Groups",
+        "groups": [
+          {
+            "name": "Forensics Analyst – Entry Level (Disk & Memory 101)",
+            "members": 75,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Forensics Analyst – Mid Level (Incident Response Lab)",
+            "members": 60,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Forensics Analyst – Senior Level (Forensics Experts Forum)",
+            "members": 40,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Security Administrator Study Groups",
+        "groups": [
+          {
+            "name": "Security Admin – Entry Level (Admin Basics)",
+            "members": 100,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Security Admin – Mid Level (IDAM & Group Policy)",
+            "members": 70,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Security Admin – Senior Level (Endpoint Security Masters)",
+            "members": 45,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Application Security Specialist Study Groups",
+        "groups": [
+          {
+            "name": "AppSec – Entry Level (SAST & OWASP)",
+            "members": 85,
+            "join_link": "← Join"
+          },
+          {
+            "name": "AppSec – Mid Level (Secure SDLC Practitioners)",
+            "members": 60,
+            "join_link": "← Join"
+          },
+          {
+            "name": "AppSec – Senior Level (AppSec Architects)",
+            "members": 30,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Cloud Security Engineer Study Groups",
+        "groups": [
+          {
+            "name": "Cloud Sec – Entry Level (Cloud Fundamentals)",
+            "members": 90,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Cloud Sec – Mid Level (AWS/Azure Security)",
+            "members": 80,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Cloud Sec – Senior Level (Cloud Architecture Experts)",
+            "members": 50,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Network Security Engineer Study Groups",
+        "groups": [
+          {
+            "name": "Network Sec – Entry Level (Network Basics)",
+            "members": 95,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Network Sec – Mid Level (IDS/IPS & Firewalls)",
+            "members": 75,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Network Sec – Senior Level (Network Architects)",
+            "members": 40,
+            "join_link": "← Join"
+          }
+        ]
+      },
+      {
+        "category": "Infrastructure Engineer Study Groups",
+        "groups": [
+          {
+            "name": "Infra Engineer – Entry Level (Infra Basics)",
+            "members": 80,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Infra Engineer – Mid Level (IaC & Hybrid Infra)",
+            "members": 60,
+            "join_link": "← Join"
+          },
+          {
+            "name": "Infra Engineer – Senior Level (InfraSec Architects)",
+            "members": 30,
+            "join_link": "← Join"
+          }
+        ]
+      }
+    ]
+  }
+}
