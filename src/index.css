@@ -32,6 +32,11 @@ html {
   );
 }
 
+.field-error {
+  font-size: 12px;
+  color: #ff7777;
+}
+
 .cyguides-loading {
   display: flex;
   align-items: center;
